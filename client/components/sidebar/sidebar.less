@@ -20,6 +20,9 @@
     height: @header-height;
     line-height: @header-height;
     border-top:2px solid white;
+    background: 240px center url("../assets/images/rts-white.svg") no-repeat;
+    background-size: @header-height - 10px auto;
+
     //border-bottom:1px solid fade(white, 10);
     .btn.btn-link {
       color:white;
@@ -34,20 +37,22 @@
       &.active a {
         font-weight: bold;
         border-color: white;
+        background: white;
+        color: @text-color;
       }
 
       a {
         text-transform: uppercase;
-        border-bottom:1px solid fade(white, 50);
         color:white;
-        padding:10px 0;
+        padding:10px 15px;
         display: block;
+        border-left:2px solid transparent;
 
         &:hover, &:active, &:focus {
           cursor: pointer;
-          border-color: white;
           text-decoration: none;
           outline:none;
+          border-color:white;
         }
       }
     }
