@@ -8,11 +8,9 @@
   width: 300px;
   background: @gray-dark;
   .transition(0.4s);
-  .box-shadow(0 0 150px 20px black);
 
   &--is-collapsed {
     .translate(-100%, 0);
-    .box-shadow(0 0 0 0 black);
   }
 
   &__toggler {
@@ -22,8 +20,8 @@
     border-top:2px solid white;
     background: 240px center url("../assets/images/rts-white.svg") no-repeat;
     background-size: @header-height - 10px auto;
+    border-bottom:1px solid fade(white, 10);
 
-    //border-bottom:1px solid fade(white, 10);
     .btn.btn-link {
       color:white;
     }
@@ -31,8 +29,10 @@
 
   &__links {
 
+    margin-top:15px;
+
     li {
-      padding:10px 20px;
+      padding:5px 20px;
 
       &.active a {
         font-weight: bold;
@@ -44,7 +44,7 @@
       a {
         text-transform: uppercase;
         color:white;
-        padding:10px 15px;
+        padding:7px 15px;
         display: block;
         border-left:2px solid transparent;
 
