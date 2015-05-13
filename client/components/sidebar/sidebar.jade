@@ -1,0 +1,21 @@
+.sidebar(ng-class="{ 'sidebar--is-collapsed': sidebar.isCollapsed }")
+  .sidebar__toggler
+    button.btn.btn-link(ng-click="sidebar.toggle()")
+      i.fa.fa-bars.fa-2x
+      span.sr-only Fermer le menu
+  .sidebar__links
+    ul.list-unstyled
+      li(ui-sref-active="active")
+        a(ui-sref="main")
+          | Accueil
+      li(ui-sref-active="active")
+        a
+          | À propos
+      li(ui-sref-active="active")
+        a
+          | Lien 1
+      li(ui-sref-active="active")
+        a
+          | Lien 2
+
+

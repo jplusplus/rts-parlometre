@@ -4,6 +4,11 @@
 @icon-font-path: '/bower_components/bootstrap/fonts/';
 @fa-font-path: '/bower_components/font-awesome/fonts';
 
+@header-height: 50px;
+
+@zindex-header:@zindex-navbar;
+@zindex-sidebar: @zindex-header + 100;
+
 /**
  * App-wide Styles
  */
@@ -17,5 +22,7 @@
 
 // injector
 @import 'main/main.less';
+@import 'header/header.less';
 @import 'progress/progress.less';
+@import 'sidebar/sidebar.less';
 // endinjector

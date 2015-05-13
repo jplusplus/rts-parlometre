@@ -1,1 +1,7 @@
-| YAY
+div(ng-include="'components/header/header.html'")
+div(ng-include="'components/sidebar/sidebar.html'")
+
+.main-overlay(ng-hide="sidebar.isCollapsed", ng-click="sidebar.toggle()")
+.main
+  .container
+    | YAY
