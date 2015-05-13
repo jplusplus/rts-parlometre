@@ -7,3 +7,8 @@ angular.module 'rtsDialectsApp'
     url: '/'
     templateUrl: 'app/main/main.html'
     controller: 'MainCtrl'
+    resolve:
+      questions: ($http)->
+        $http
+          .get 'assets/data/questions.json'
+          .then (res)-> res.data

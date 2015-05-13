@@ -1,0 +1,31 @@
+[
+  {
+    "label": "Ne pas aller à l'école ou en cours se résume en un seul verbe. Lequel?",
+    "answers": [
+      "cougner",
+      "biquer",
+      "courber",
+      "gatter",
+      "sécher",
+      "schwentzer"
+    ]
+  },
+  {
+    "label": "Un train régional, c'est:",
+    "answers": [
+      "Un traclet",
+      "Un régio",
+      "Un RER",
+      "Un omnibus",
+      "Le dur"
+    ]
+  },
+  {
+    "label": "Qui dirige votre commune",
+    "answers": [
+      "Le président",
+      "Le syndic",
+      "Le maire"
+    ]
+  }
+]
