@@ -3,4 +3,4 @@
 angular.module 'rtsDialectsApp'
   .service 'Sidebar', class
     isCollapsed: yes
-    toggle: => @isCollapsed = !@isCollapsed
+    toggle: (force)=> @isCollapsed = force ? !@isCollapsed

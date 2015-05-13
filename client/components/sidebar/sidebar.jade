@@ -1,15 +1,18 @@
-.sidebar(ng-class="{ 'sidebar--is-collapsed': sidebar.isCollapsed }")
+.sidebar(ng-class="{ 'sidebar--is-collapsed': sidebar.isCollapsed }", ng-controller="SidebarCtrl")
   .sidebar__toggler
     button.btn.btn-link(ng-click="sidebar.toggle()")
       i.fa.fa-bars.fa-2x
       span.sr-only Fermer le menu
   .sidebar__links
     ul.list-unstyled
-      li(ui-sref-active="active")
+      li(ui-sref-active-eq="active", ng-hide="done()")
         a(ui-sref="main")
-          | Accueil
+          | Faire le test
+      li(ui-sref-active-eq="active", ng-show="done()")
+        a(ui-sref="main.outro({ hash: hash() })")
+          | Voir vos résultats
       li(ui-sref-active="active")
-        a
+        a(ui-sref="main.about")
           | À propos
       li(ui-sref-active="active")
         a

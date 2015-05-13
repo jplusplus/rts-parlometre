@@ -2,10 +2,11 @@
 
   @highlight-color: #fa012c;
   position: relative;
+  margin-bottom:40px;
 
   &-overlay {
     z-index: (@zindex-header + @zindex-sidebar)/2;
-    position: absolute;
+    position: fixed;
     top:0;
     bottom:0;
     left:0;
@@ -67,8 +68,8 @@
 
   &__container {
     padding:40px;
+    padding-bottom:40px * 2px;
     max-width: 660px;
-    min-width: 560px;
     .translate(0, 0);
     position:absolute;
     left:40%;
@@ -77,7 +78,6 @@
 
     @media (max-width: @screen-md-min) {
       position: static;
-      min-width: auto;
       margin:auto;
       .translate(0, 0);
       .transition(0);
