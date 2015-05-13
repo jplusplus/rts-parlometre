@@ -1,0 +1,50 @@
+.progress-container {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:100%;
+  z-index: @zindex-modal + 100;
+  display:none;
+  background: fade(white, 20);
+
+  &--active {
+    display: block;
+  }
+
+  &__spinner {
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    background: @brand-primary;
+    border-radius:50%;
+    .translate(-50%, -50%);
+
+
+    &:after {
+      content:"";
+      position: absolute;
+      top:50%;
+      left:50%;
+      .translate(-50%, -50%);
+      width:135px * 0.2px;
+      height:140px * 0.2px;
+      background:url("//logo-js.herokuapp.com/loading-three-dots") no-repeat center center;
+      background-size: 100%;
+    }
+  }
+
+}
+
+.body-wrapper {
+  .transition(0.5s);
+}
+
+.body--progress-active .body-wrapper {
+  filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
