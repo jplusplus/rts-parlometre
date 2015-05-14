@@ -1,13 +1,12 @@
 header.header
   .container-fluid
-    .row
-      .col-xs-2
-        button.btn.btn-link(ng-click="sidebar.toggle()")
-          i.fa.fa-bars.fa-2x
-          span.sr-only Ouvrir le menu
-      .col-xs-10
-        .row
-          .col-xs-4
-            img(src="assets/images/rts-red.svg")
-          .col-xs-4 Logo 2
-          .col-xs-4 Logo 3
+    button.btn.btn-link.header__toggler(ng-click="sidebar.toggle()")
+      i.fa.fa-bars.fa-2x
+      span.sr-only Ouvrir le menu
+    .row.text-center
+      .col-xs-4
+        //- Silence is golden
+      .col-xs-4
+        img(src="assets/images/rts-red.svg")
+      .col-xs-4
+        img(src="//logo-js.herokuapp.com/jpp/C50224/dbd5d3", height="30px")
