@@ -70,12 +70,31 @@
           }
 
           &--previous {
-            background:@gray-dark;
+
+            @media (min-width: 1110px) {
+              background:@gray-dark;
+            }
+
+            @media (max-width: 1109px) {
+              opacity:0;
+              pointer-events: none;
+            }
           }
 
           &--previous &__label {
-            background:@gray-darker;
+
+            @media (min-width: 1110px) {
+              background:@gray-darker;
+            }
           }
+
+          &--previous &__position {
+
+            @media (min-width: 1110px) {
+              color:@gray-dark;
+            }
+          }
+
 
 
           &__position {

@@ -2,13 +2,17 @@
 
 angular
   .module 'rtsDialectsApp'
-    .service 'Questions', ($http)->
+    .service 'Questions', ($http, $rootScope)->
       new class
         constructor: ->
           @promise = $http
             .get 'assets/data/questions.json'
             .then (res)=>
               @questions = res.data
+              # Watch for chanhes on the question index
+              $rootScope.$watch @index, ->
+                # Broadcast the change
+                $rootScope.$broadcast 'questions:index'
         # Get questions using a promises
         get: => @promise
         # Get the raw values

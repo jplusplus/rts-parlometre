@@ -17,10 +17,10 @@ div(ng-include="'components/sidebar/sidebar.html'")
           .main__container__questions__item(ng-repeat="question in questions", id="question-{{$index}}")
             form.main__container__questions__item__form(
               name="questionForm",
-              ng-submit="pick(index + 1)",
+              ng-submit="save(question, userAnswer)",
               ng-class="questionClass($index)")
               fieldset(ng-disabled="$index !== index")
-                input(type="hidden", required, ng-model="question.userAnswer")
+                input(type="hidden", required, ng-model="userAnswer")
                 .main__container__questions__item__form__position
                   | Question {{ $index + 1 }}/{{ questions.length }}
                 .main__container__questions__item__form__label
@@ -34,8 +34,8 @@ div(ng-include="'components/sidebar/sidebar.html'")
 
                 ul.list-unstyled.main__container__questions__item__form__answers
                   li.checkbox.main__container__questions__item__form__answers__choice(ng-repeat="answer in question.answers")
-                    label(ng-hide="$index !== question.userAnswer && $parent.$index < index")
-                      input(type="radio", icheck, ng-model="question.userAnswer", ng-disabled="$parent.$index !== index", ng-value="$index")
+                    label(ng-hide="$index !== userAnswer && $parent.$index < index")
+                      input(type="radio", icheck, ng-model="$parent.userAnswer", ng-disabled="$parent.$index !== index", ng-value="$index")
                       | &nbsp; {{ answer }}
 
 
