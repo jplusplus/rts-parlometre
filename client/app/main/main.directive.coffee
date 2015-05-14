@@ -1,14 +1,16 @@
 angular
   .module('rtsDialectsApp')
-    .directive 'main', ($window, Questions) ->
+    .directive 'main', ($window, $state, $timeout, Questions) ->
       restrict: 'C'
       link: ($scope, element, $attrs)->
         # Redraw the form container
         draw = ->
+          # Only draw on the main state (not children)
+          return unless $state.is 'main'
           # Retreive questions position
           index = do Questions.index
           # Reference width
-          width = angular.element('.main__container__wrapper').width()
+          width = angular.element('.main__container__wrapper').width() or 550
           # Calculate the current offset
           # according the windows width
           offset = if $($window).width() >= 1100 then width/2 else 0
@@ -25,6 +27,8 @@ angular
             position: [ left, 0, 0]
         # Wait for change on the questions index
         $scope.$on 'questions:index', draw
+        # Also redraw when the state change
+        $scope.$on '$stateChangeSuccess', (-> $timeout draw, 400)
         # Wait for the $window to be resized to redraw
         # (we don't need to $apply the event because no scope value is updated)
         angular.element($window).on 'resize', draw
