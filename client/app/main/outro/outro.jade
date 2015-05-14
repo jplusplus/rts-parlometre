@@ -4,8 +4,20 @@
     h2.main__container__title Le Parlomètre romand
     p.lead.main__container__introduction
       | Art party heirloom jean shorts Banksy, roof party PBR&amp;B taxidermy beard.
-      | Hashtag Carles meh, whatever cred McSweeney's bitters letterpress meditation organic
-      | typewriter mumblecore messenger bag salvia seitan.
-    .alert.alert-success(ng-show="done()")
-      i.fa.fa-check
-      | &nbsp; Merci pour votre participation !
+    .main__outro__container__yours(ng-show="1 || done()")
+      h3.main__outro__container__yours__title Votre carte
+      .main__outro__container__yours__body
+        p
+          | Retrouver grâce à la carte ci-dessous de quels endroit vient votre dialecte.
+          | Les 3 villes ayant le plus de similarités avec vos réponses sont affichées.
+        .row
+          .col-xs-6
+            p
+              | Vous parlez à&nbsp;
+              strong 90% comme un Fribourgeois
+              | ,&nbsp;
+              strong 60% comme un Valasien&nbsp;
+              | et seulement&nbsp;
+              strong 10% comme un genevois.
+          .col-xs-6.main__outro__container__yours__body__map
+            img.img-thumbnail(src="http://www.placehold.it/400x450/fff/FFCC33")

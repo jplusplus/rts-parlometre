@@ -1,7 +1,7 @@
 div(ng-include="'components/header/header.html'")
 div(ng-include="'components/sidebar/sidebar.html'")
 //- Overlay outside the content when the sidebar is visible
-.main-overlay(ng-hide="sidebar.isCollapsed", ng-click="sidebar.toggle()")
+.main-overlay(ng-hide="sidebar.isCollapsed", ng-click="sidebar.toggle(true)")
 
 .main(ng-class="{ 'main--first': !previous }")
   ui-view
