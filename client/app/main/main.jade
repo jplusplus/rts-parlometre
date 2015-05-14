@@ -5,17 +5,6 @@ div(ng-include="'components/sidebar/sidebar.html'")
 
 .main(ng-class="{ 'main--first': !previous }")
   ui-view
-    .main__previous-question(ng-show="previous")
-      h3.main__previous-question__title
-        | Votre réponse précédente
-      p.main__previous-question__label.text-muted
-        | {{ previous.label }} &nbsp;
-        span.main__previous-question__answer
-          i.fa.fa-check-circle-o
-          | &nbsp;{{ previous.answers[ previous.userAnswer ] }}
-      p.main__previous-question__map
-        img.img-thumbnail(src="http://www.placehold.it/400x450/fff/1AB394", width="100%")
-
     .main__container
       h2.main__container__title Le Parlomètre romand
       p.lead.main__container__introduction
@@ -23,20 +12,36 @@ div(ng-include="'components/sidebar/sidebar.html'")
         | Hashtag Carles meh, whatever cred McSweeney's bitters letterpress meditation organic
         | typewriter mumblecore messenger bag salvia seitan.
 
-      form.main__container__question(name="questionForm", ng-submit="pick(index + 1)")
-        input(type="hidden", required, ng-model="question.userAnswer")
-        .main__container__question__position
-          | Question {{ index + 1 }}/{{ questions.length }}
-        .main__container__question__label
-          | {{ question.label }}
-        ul.list-unstyled.main__container__question__answers
-          li.checkbox.main__container__question__answers__choice(ng-repeat="answer in question.answers")
-            label
-              input(type="radio", ng-model="question.userAnswer", ng-value="$index")
-              | &nbsp; {{ answer }}
-        .main__container__question__next
-          button.btn.btn-primary.btn-lg(ng-disabled="!questionForm.$valid", type="submit")
-            | Suivant
+      .main__container__wrapper
+        .main__container__questions
+          .main__container__questions__item(ng-repeat="question in questions", id="question-{{$index}}")
+            form.main__container__questions__item__form(
+              name="questionForm",
+              ng-submit="pick(index + 1)",
+              ng-class="questionClass($index)")
+              fieldset(ng-disabled="$index !== index")
+                input(type="hidden", required, ng-model="question.userAnswer")
+                .main__container__questions__item__form__position
+                  | Question {{ $index + 1 }}/{{ questions.length }}
+                .main__container__questions__item__form__label
+                  | {{ question.label }}
+
+                .main__container__questions__item__form__image(ng-show="$index >= index && question.image")
+                  img(ng-src="{{ question.image }}", width="100%")
+
+                .main__container__questions__item__form__map(ng-show="$index < index")
+                  img(src="http://www.placehold.it/400x450/fff/1AB394", width="100%")
+
+                ul.list-unstyled.main__container__questions__item__form__answers
+                  li.checkbox.main__container__questions__item__form__answers__choice(ng-repeat="answer in question.answers")
+                    label(ng-hide="$index !== question.userAnswer && $parent.$index < index")
+                      input(type="radio", icheck, ng-model="question.userAnswer", ng-disabled="$parent.$index !== index", ng-value="$index")
+                      | &nbsp; {{ answer }}
+
+
+                .main__container__questions__item__form__next(ng-hide="$index < index")
+                  button.btn.btn-primary.btn-lg(ng-disabled="!questionForm.$valid", type="submit")
+                    | Suivant
 
 
 

@@ -7,5 +7,6 @@ angular.module 'rtsDialectsApp', [
   'ngAnimate',
   'ui.router',
   'ui.bootstrap',
-  'restangular'
+  'restangular',
+  'duScroll'
 ]
