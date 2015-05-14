@@ -16,6 +16,9 @@ angular
           left = !index or (-width * index) + offset
           # Scroll to the current question
           container = angular.element '.main__container__questions'
+          # Resize container according the number of items
+          # and the size of the wrapper
+          container.css 'width', width * Questions.values().length
           # Scroll inside the wrapper by moving the container
           snabbt  container,
             duration: 400
