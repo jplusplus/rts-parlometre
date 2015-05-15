@@ -5,6 +5,8 @@ var controller = require('./route.controller');
 
 var router = express.Router();
 
-router.get('/:hash', controller.hash);
+router.get('/hash/:hash', controller.hash);
+router.get('/answer/:question/:answer', controller.hash);
+
 
 module.exports = router;
