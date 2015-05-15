@@ -16,4 +16,15 @@ var db = {
 
 
 // Insert models below
+
+/* The route Model is not yet activated
+db.Route = db.sequelize.import(path.join(
+  config.root,
+  'server',
+  'api',
+  'route',
+  'route.model'
+)); */
+
+
 module.exports = db;
