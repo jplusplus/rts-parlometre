@@ -1,6 +1,8 @@
 .main {
 
   @highlight-color: #fa012c;
+  @small-width: 910px;
+
   position: relative;
   overflow-x:hidden;
   width:100%;
@@ -53,15 +55,16 @@
 
       &__item {
         display: table-cell;
+        vertical-align: top;
         width:100%/21%;
 
         &__form {
           position: relative;
-          margin:20px;
+          margin:0 2%;
           margin-bottom:60px;
           background:@brand-primary;
           color: contrast(@brand-primary);
-          .transition(0.6s);
+          .transition(~"opacity 0.6s, margin 0.6s");
 
           &--hidden {
             opacity:0;
@@ -70,11 +73,13 @@
 
           &--previous {
 
-            @media (min-width: 1110px) {
-              background:@gray-dark;
+            @media (min-width: @small-width) {
+              background:#FFCC33;
+              margin-left:45%;
             }
 
-            @media (max-width: 1109px) {
+            @media (max-width: @small-width) {
+              .transition(opacity 0.6s);
               opacity:0;
               pointer-events: none;
             }
@@ -82,19 +87,18 @@
 
           &--previous &__label {
 
-            @media (min-width: 1110px) {
+            @media (min-width: @small-width) {
               background:@gray-darker;
+              font-size:1em;
             }
           }
 
           &--previous &__position {
 
-            @media (min-width: 1110px) {
-              color:@gray-dark;
+            @media (min-width: @small-width) {
+              color:@gray-light;
             }
           }
-
-
 
           &__position {
             position: absolute;
@@ -109,20 +113,33 @@
             font-weight: 200;
             padding:20px;
             background: #c60224;
+            position: relative;
             .transition(0.6s);
+
+            &__user-answer {
+              position: absolute;
+              top:100%;
+              left:0;
+              width:100%;
+              padding:10px 20px;
+              color: @gray-darker;
+              font-weight: bold;
+              background: fade( contrast(@gray-darker), 20);
+            }
           }
 
-          &__map, &__image {
+          &__image {
             max-width: 50%;
             margin-left:10px;
             float:right;
             background: white;
-            border:1px solid @gray-darker;
-            border-top:0;
+            border:1px solid #c60224;
           }
 
-          &__image {
-            border-color: #c60224;
+          &__map {
+            text-align: center;
+            margin:auto;
+            display: block;
           }
 
           &__answers {

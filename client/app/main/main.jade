@@ -22,22 +22,27 @@ div(ng-include="'components/sidebar/sidebar.html'")
               fieldset(ng-disabled="$index !== index")
                 input(type="hidden", required, ng-model="userAnswer")
                 .main__container__questions__item__form__position
-                  | Question {{ $index + 1 }}/{{ questions.length }}
+                  div(ng-hide="$index < index")
+                    | Question {{ $index + 1 }}/{{ questions.length }}
+                  div(ng-show="$index < index")
+                    | Votre denière réponse
                 .main__container__questions__item__form__label
                   | {{ question.label }}
+                  .main__container__questions__item__form__label__user-answer(ng-show="$index < index")
+                    | {{ question.answers[question.userAnswer] }}
 
                 .main__container__questions__item__form__image(ng-show="$index >= index && question.image")
                   img(ng-src="{{ question.image }}", width="100%")
 
-                .main__container__questions__item__form__map(ng-show="$index < index")
-                  img(src="http://www.placehold.it/400x450/fff/FFCC33", width="100%")
 
-                ul.list-unstyled.main__container__questions__item__form__answers
+                ul.list-unstyled.main__container__questions__item__form__answers(ng-hide="$index < index")
                   li.checkbox.main__container__questions__item__form__answers__choice(ng-repeat="answer in question.answers")
-                    label(ng-hide="$index !== userAnswer && $parent.$index < index")
+                    label
                       input(type="radio", icheck, ng-model="$parent.userAnswer", ng-disabled="$parent.$index !== index", ng-value="$index")
                       | &nbsp; {{ answer }}
 
+                .main__container__questions__item__form__map.slide(ng-show="$index < index")
+                  img(src="http://www.placehold.it/400x450/FFCC33/FFF", width="250")
 
                 .main__container__questions__item__form__next(ng-hide="$index < index")
                   button.btn.btn-primary.btn-lg(ng-disabled="!questionForm.$valid", type="submit")
