@@ -42,9 +42,10 @@
             .col-xs-4
               a(ng-click="fb()")
                 i.fa.fa-facebook
-            .col-xs-4
-              a(tooltip="Copier l'URL", tooltip-append-to-body="true")
-                i.fa.fa-globe
+            .col-xs-4.
+              <a tooltip="Copier l'URL" tooltip-append-to-body="true" ui-zeroclip zeroclip-text="{{ url }}">
+                <i class="fa fa-clipboard"></i>
+              </a>
         .col-xs-6.main__outro__container__footer__save
           a.btn.btn-block.btn-primary(ui-sref=".save", ng-show="done()")
             | Enregistrer mes résultats

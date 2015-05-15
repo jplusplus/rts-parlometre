@@ -9,5 +9,6 @@ angular.module 'rtsDialectsApp', [
   'ui.bootstrap',
   'restangular',
   'rzModule',
+  'zeroclipboard',
   'socialsharing'
 ]
