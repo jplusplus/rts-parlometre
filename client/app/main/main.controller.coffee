@@ -27,10 +27,10 @@ angular.module 'rtsDialectsApp'
       # Set the previous question
       $scope.previous = if index then questions[index - 1] else null
     # Returns the clas to apply to a question according its index
-    $scope.questionClass = (questionIndex)->
-       'main__container__questions__item__form--previous': questionIndex < $scope.index,
-       'main__container__questions__item__form--next': questionIndex > $scope.index,
-       'main__container__questions__item__form--hidden': questionIndex > $scope.index or questionIndex < $scope.index - 1
+    $scope.questionClass = (i)->
+       'main__container__questions__item__form--previous': i < $scope.index,
+       'main__container__questions__item__form--next': i > $scope.index,
+       'main__container__questions__item__form--hidden': i > $scope.index or i < $scope.index - 1
     # Move to final screen if the user didn't answer yet
     $scope.$on '$stateChangeSuccess', (event, next)->
       # Avoid answering twice
