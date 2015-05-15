@@ -17,7 +17,8 @@
     "restangular": "~1.5.1",
     "angular-scroll": "~0.7.0",
     "icheck": "~1.0.2",
-    "snabbt.js": "~0.5.2"
+    "snabbt.js": "~0.5.2",
+    "chroma-js": "~0.6.1"
   },
   "devDependencies": {
     "angular-mocks": "~1.2",

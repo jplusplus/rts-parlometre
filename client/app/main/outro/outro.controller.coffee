@@ -2,4 +2,6 @@
 
 angular
   .module 'rtsDialectsApp'
-    .controller 'MainOutroCtrl', ($scope, $state)->
+    .controller 'MainOutroCtrl', ($scope, $stateParams)->
+      $scope.hash = $stateParams.hash
+
