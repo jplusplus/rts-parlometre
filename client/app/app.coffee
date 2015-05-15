@@ -8,5 +8,5 @@ angular.module 'rtsDialectsApp', [
   'ui.router',
   'ui.bootstrap',
   'restangular',
-  'duScroll'
+  'rzModule'
 ]

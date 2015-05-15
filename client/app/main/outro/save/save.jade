@@ -1,0 +1,31 @@
+form.main__outro__save(ng-submit="save()")
+  .modal-header
+    button(type="button", class="close", aria-label="Close", ng-click="close()")
+      span(aria-hidden="true") &times;
+    h3 Enregistrer mes résultats
+  .modal-body
+    p.lead
+      | Vous pouvez nous aider à améliorer l'application et affiner les résultars
+      | en enregistrant vos  réponses et en répondant aux questions suivantes&nbsp;:
+
+    .form-group
+      label Dans quelle commune résidez-vous ?
+      select.form-control(ng-model="leave", ng-options="city for city in cities")
+        option(value="") Choisissez
+
+    .form-group
+      label Dans quelle commune êtes-vous né(e) ?
+      select.form-control(ng-model="born", ng-options="city for city in cities")
+        option(value="") Choisissez
+
+    .form-group
+      label Rebnseignez votre e-mail
+      input.form-control(type="email", ng-model="email", id="input-email")
+
+    .form-group
+      label Êtes-vous satisfait de la qualité de cette application ?
+      rzslider(rz-slider-floor="0", rz-slider-ceil="10", rz-slider-model="note", rz-slider-translate="translateNote")
+
+  .modal-footer.text-right
+    button.btn.btn-primary(type="submit")
+      | Valider

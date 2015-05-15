@@ -29,3 +29,20 @@
 
           .col-xs-6.main__outro__container__yours__body__map
             map(hash="hash", width="600")
+
+    .main__outro__container__footer
+      .row
+        .col-xs-3.main__outro__container__footer__label
+          | Partager votre carte&nbsp;:
+        .col-xs-3.main__outro__container__footer__share
+          .row.text-center
+            .col-xs-4
+              i.fa.fa-twitter
+            .col-xs-4
+              i.fa.fa-facebook
+            .col-xs-4
+              i.fa.fa-globe
+        .col-xs-6.main__outro__container__footer__save
+          a.btn.btn-block.btn-primary(ui-sref=".save")
+            | Enregistrer mes résultats
+
