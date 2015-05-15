@@ -4,7 +4,7 @@
     h2.main__container__title Le Parlomètre romand
     p.lead.main__container__introduction
       | Art party heirloom jean shorts Banksy, roof party PBR&amp;B taxidermy beard.
-    .main__outro__container__yours(ng-show="1 || done()")
+    .main__outro__container__yours
       h3.main__outro__container__yours__title Votre carte
       .main__outro__container__yours__body
         p.text-muted
@@ -46,6 +46,8 @@
               a(tooltip="Copier l'URL", tooltip-append-to-body="true")
                 i.fa.fa-globe
         .col-xs-6.main__outro__container__footer__save
-          a.btn.btn-block.btn-primary(ui-sref=".save")
+          a.btn.btn-block.btn-primary(ui-sref=".save", ng-show="done()")
             | Enregistrer mes résultats
+          a.btn.btn-block.btn-primary(ui-sref="main", ng-hide="done()")
+            | Faire le test !
 
