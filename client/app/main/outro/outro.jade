@@ -21,20 +21,11 @@
               strong 10% comme un genevois.
 
             ul.list-unstyled.main__outro__container__yours__body__cities
-              li.main__outro__container__yours__body__cities__item
+              li.main__outro__container__yours__body__cities__item(ng-repeat="city in cities | orderBy:'-value'")
                 h5.main__outro__container__yours__body__cities__item__title
-                  | Fribourg
+                  | {{ city.label }}
                 .main__outro__container__yours__body__cities__item__bar
-
-              li.main__outro__container__yours__body__cities__item
-                h5.main__outro__container__yours__body__cities__item__title
-                  | Valais
-                .main__outro__container__yours__body__cities__item__bar
-
-              li.main__outro__container__yours__body__cities__item
-                h5.main__outro__container__yours__body__cities__item__title
-                  | Genève
-                .main__outro__container__yours__body__cities__item__bar
+                  .main__outro__container__yours__body__cities__item__bar__content(ng-style="barStyle(city.value)")
 
           .col-xs-6.main__outro__container__yours__body__map
             map(hash="hash", width="600")
