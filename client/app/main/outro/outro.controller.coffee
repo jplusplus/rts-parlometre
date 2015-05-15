@@ -2,7 +2,7 @@
 
 angular
   .module 'rtsDialectsApp'
-    .controller 'MainOutroCtrl', ($scope, $stateParams, app)->
+    .controller 'MainOutroCtrl', ($scope, $stateParams, $state, $fb, $twt, app)->
       $scope.hash = $stateParams.hash
       # Fake cities list
       $scope.cities = [
@@ -16,5 +16,17 @@ angular
       $scope.barStyle = (value)->
         width: (value/15 * 100) + '%'
         background: color(value)
+      # Facebook's sharing
+      $scope.fb = ->
+        $fb.feed
+          name: "Le Parlomètre romand - RTS"
+          description: "Je parle français comme les habitants de Fribourg"
+          link: app.sharing.url
+          picture: app.sharing.url + "/assets/images/rts-red.jpg"
+      # Twitter's sharing
+      $scope.tw = ->
+        $twt.intent 'tweet',
+          text: 'Je parle français comme les habitants de Fribourg'
+          url: app.sharing.url
 
 

@@ -8,5 +8,6 @@ angular.module 'rtsDialectsApp', [
   'ui.router',
   'ui.bootstrap',
   'restangular',
-  'rzModule'
+  'rzModule',
+  'socialsharing'
 ]

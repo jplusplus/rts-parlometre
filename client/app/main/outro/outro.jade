@@ -37,11 +37,14 @@
         .col-xs-3.main__outro__container__footer__share
           .row.text-center
             .col-xs-4
-              i.fa.fa-twitter
+              a(ng-click="tw()")
+                i.fa.fa-twitter
             .col-xs-4
-              i.fa.fa-facebook
+              a(ng-click="fb()")
+                i.fa.fa-facebook
             .col-xs-4
-              i.fa.fa-globe
+              a(tooltip="Copier l'URL", tooltip-append-to-body="true")
+                i.fa.fa-globe
         .col-xs-6.main__outro__container__footer__save
           a.btn.btn-block.btn-primary(ui-sref=".save")
             | Enregistrer mes résultats

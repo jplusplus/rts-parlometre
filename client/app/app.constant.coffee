@@ -1,6 +1,9 @@
 angular
   .module 'rtsDialectsApp'
     .constant 'app',
+      sharing:
+        appid: '662081797256496'
+        url: 'http://parlometre.ch'
       map:
         pixels: 10000
         domain: [0, 15]
