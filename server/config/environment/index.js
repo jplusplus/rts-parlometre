@@ -28,12 +28,12 @@ var all = {
   userRoles: ['guest', 'user', 'admin'],
   // Use sqlite by default
   sequelize: {
-    uri: 'sqlite://',
+    uri: process.env.DATABASE_URL,
+    use_env_variable: "DATABASE_URL",
     options: {
       logging: false,
-      storage: 'dev.sqlite',
       define: {
-        timestamps: false
+        timestamps: true
       }
     }
   },
