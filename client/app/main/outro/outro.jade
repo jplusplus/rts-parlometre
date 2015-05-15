@@ -11,7 +11,7 @@
           | Retrouver grâce à la carte ci-dessous de quels endroit vient votre dialecte.
           | Les 3 villes ayant le plus de similarités avec vos réponses sont affichées.
         .row
-          .col-xs-6
+          .col-sm-6
             p
               | Vous parlez à&nbsp;
               strong 90% comme un Fribourgeois
@@ -27,14 +27,14 @@
                 .main__outro__container__yours__body__cities__item__bar
                   .main__outro__container__yours__body__cities__item__bar__content(ng-style="barStyle(city.value)")
 
-          .col-xs-6.main__outro__container__yours__body__map
+          .col-sm-6.main__outro__container__yours__body__map
             map(hash="hash", width="600")
 
     .main__outro__container__footer
       .row
-        .col-xs-3.main__outro__container__footer__label
+        .col-xs-3.hidden-xs.main__outro__container__footer__label
           | Partager votre carte&nbsp;:
-        .col-xs-3.main__outro__container__footer__share
+        .col-sm-3.col-xs-6.main__outro__container__footer__share
           .row.text-center
             .col-xs-4
               a(ng-click="tw()")
@@ -46,7 +46,7 @@
               <a tooltip="Copier l'URL" tooltip-append-to-body="true" ui-zeroclip zeroclip-text="{{ url }}">
                 <i class="fa fa-clipboard"></i>
               </a>
-        .col-xs-6.main__outro__container__footer__save
+        .col-sm-6.col-xs-6.main__outro__container__footer__save
           a.btn.btn-block.btn-primary(ui-sref=".save", ng-show="done()")
             | Enregistrer mes résultats
           a.btn.btn-block.btn-primary(ui-sref="main", ng-hide="done()")
