@@ -1,5 +1,7 @@
 'use strict';
 
+var response = require("../response");
+
 // Returns a fake 10 000 route's hash
 var fake = function() {
   var hash = "";
@@ -13,5 +15,7 @@ var fake = function() {
 // avery pixels of an image (one number, one pixel value)
 // that match with the given route's hash
 exports.hash = function(req, res) {
-  res.send( fake() );
+  var pixels = fake();
+  response.setCachedRequest(req, pixels, 24 * 60 * 60 * 10000);
+  res.send(pixels);
 };
