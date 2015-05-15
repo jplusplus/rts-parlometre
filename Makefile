@@ -9,4 +9,4 @@ install:
 	bower install
 
 staging: build
-  grunt buildcontrol:heroku
+	grunt buildcontrol:heroku
