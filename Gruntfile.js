@@ -269,7 +269,8 @@ module.exports = function (grunt) {
             '<%= yeoman.dist %>/client/{,*/}*.js',
             '<%= yeoman.dist %>/client/{,*/}*.css',
             '<%= yeoman.dist %>/client/assets/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
-            '<%= yeoman.dist %>/client/assets/fonts/*'
+            '<%= yeoman.dist %>/client/assets/fonts/*',
+            '!<%= yeoman.dist %>/client/bower_components/*.js'
           ]
         }
       }
@@ -288,8 +289,14 @@ module.exports = function (grunt) {
     // Performs rewrites based on rev and the useminPrepare configuration
     usemin: {
       html: ['<%= yeoman.dist %>/client/{,*/}*.html'],
-      css: ['<%= yeoman.dist %>/client/{,*/}*.css'],
-      js: ['<%= yeoman.dist %>/client/{,*/}*.js'],
+      css: [
+        '<%= yeoman.dist %>/client/{,*/}*.css',
+        '!<%= yeoman.dist %>/client/bower_components/*.css'
+      ],
+      js: [
+        '<%= yeoman.dist %>/client/{,*/}*.js',
+        '!<%= yeoman.dist %>/client/bower_components/*.js'
+      ],
       options: {
         assetsDirs: [
           '<%= yeoman.dist %>/client',
