@@ -5,3 +5,4 @@ angular
     .config (RestangularProvider)->
       RestangularProvider.setBaseUrl '/api'
       RestangularProvider.setRestangularFields id: "_id"
+      RestangularProvider.setDefaultHttpFields cache: yes
