@@ -10,13 +10,12 @@ form.main__outro__save(ng-submit="save()")
 
     .form-group
       label Dans quelle commune résidez-vous ?
-      select.form-control(ng-model="leave", ng-options="city.value as city.label group by city.group for city in cities")
-        option(value="") Choisissez
+      input.form-control(ng-model="leave", type="text", placeholder="Genève, étranger, etc")
 
     .form-group
       label Dans quelle commune êtes-vous né(e) ?
-      select.form-control(ng-model="born", ng-options="city.value as city.label group by city.group for city in cities")
-        option(value="") Choisissez
+      input.form-control(ng-model="born", type="text", placeholder="Genève, étranger, etc")
+
 
     .form-group
       label Rebnseignez votre e-mail
