@@ -1,6 +1,6 @@
 angular
   .module('rtsDialectsApp')
-    .directive 'map', (r, app) ->
+    .directive 'map', (r, app, Questions)->
       restrict: 'AE'
       replace: no
       template: '<img class="map" />'
@@ -34,4 +34,4 @@ angular
         canvas = $("<canvas />").attr width: scope.width, height: scope.height
         context = canvas[0].getContext "2d"
         # Gets the map
-        r.all("routes").all("hash").get(scope.hash).then draw
+        Questions.pixels(scope.hash).then draw
