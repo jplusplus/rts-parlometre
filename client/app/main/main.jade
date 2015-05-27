@@ -22,29 +22,28 @@ div(ng-include="'components/sidebar/sidebar.html'")
               fieldset(ng-disabled="$index !== index")
                 input(type="hidden", required, ng-model="userAnswer")
                 .main__container__questions__item__form__position
-                  div(ng-hide="$index < index")
+                  div(ng-hide="$index < index && showPrevious()")
                     | Question {{ $index + 1 }}/{{ questions.length }}
-                  div(ng-show="$index < index")
+                  div(ng-show="$index < index && showPrevious()")
                     | Votre denière réponse
                 .main__container__questions__item__form__label
                   | {{ question.label }}
-                  .main__container__questions__item__form__label__user-answer(ng-show="$index < index")
+                  .main__container__questions__item__form__label__user-answer(ng-show="$index < index && showPrevious()")
                     | {{ question.answers[question.userAnswer] }}
 
-                .main__container__questions__item__form__image(ng-show="$index >= index && question.image")
+                .main__container__questions__item__form__image(ng-show="$index >= index && question.image  && showPrevious()")
                   img(ng-src="{{ question.image }}", width="100%")
 
-
-                ul.list-unstyled.main__container__questions__item__form__answers(ng-hide="$index < index")
+                ul.list-unstyled.main__container__questions__item__form__answers(ng-hide="$index < index && showPrevious()")
                   li.checkbox.main__container__questions__item__form__answers__choice(ng-repeat="answer in question.answers")
                     label
                       input(type="radio", icheck, ng-model="$parent.userAnswer", ng-disabled="$parent.$index !== index", ng-value="$index")
                       | &nbsp; {{ answer }}
 
-                .main__container__questions__item__form__map.slide(ng-show="$index < index")
+                .main__container__questions__item__form__map.slide(ng-show="$index < index && showPrevious()")
                   img(src="http://www.placehold.it/400x450/FFCC33/FFF", width="250")
 
-                .main__container__questions__item__form__next(ng-hide="$index < index")
+                .main__container__questions__item__form__next(ng-hide="$index < index && showPrevious()")
                   button.btn.btn-primary.btn-lg(ng-disabled="!questionForm.$valid", type="submit")
                     | Suivant
 

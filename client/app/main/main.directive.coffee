@@ -13,7 +13,7 @@ angular
           width = angular.element('.main__container__wrapper').width() or 550
           # Calculate the current offset
           # according the windows width
-          offset = if $($window).width() >= 910 then width * 0.30 else 0
+          offset = if $($window).width() > 910 then width * 0.30 else 0
           # Calculate the current left position of the container
           left = !index or (-width * index) + offset
           # Scroll to the current question

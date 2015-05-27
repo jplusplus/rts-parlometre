@@ -73,7 +73,7 @@
 
           &--previous {
 
-            @media (min-width: @small-width) {
+            @media (min-width: (@small-width + 1px) ){
               background:#FFCC33;
               margin-left:45%;
             }
@@ -87,7 +87,7 @@
 
           &--previous &__label {
 
-            @media (min-width: @small-width) {
+            @media (min-width: (@small-width + 1px) ){
               background:@gray-darker;
               font-size:1em;
             }
@@ -95,7 +95,7 @@
 
           &--previous &__position {
 
-            @media (min-width: @small-width) {
+            @media (min-width: (@small-width + 1px) ){
               color:@gray-light;
             }
           }
