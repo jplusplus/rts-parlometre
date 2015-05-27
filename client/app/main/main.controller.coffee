@@ -19,7 +19,7 @@ angular.module 'rtsDialectsApp'
       # Until this end
       if do Questions.done
         # Go to the final page
-        return $state.go 'main.outro', hash: do Questions.hash
+        return $state.go 'main.done'
       # Current question index
       $scope.index = index
       # Current question

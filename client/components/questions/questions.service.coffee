@@ -8,7 +8,7 @@ angular
           @promise = $http
             .get 'assets/data/questions.json'
             .then (res)=>
-              @questions = res.data.slice(0, 3)
+              @questions = res.data
               # Watch for chanhes on the question index
               $rootScope.$watch @index, ->
                 # Broadcast the change
