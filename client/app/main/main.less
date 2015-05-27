@@ -143,8 +143,18 @@
           }
 
           &__answers {
-            font-size:1.1em;
             padding:20px 0;
+            padding:20px 0;
+            font-size:1.1em;
+
+            @media (max-width: @small-width) {
+              font-size:1.3em;
+
+              &__choice label {
+                padding-top:2px;
+                padding-bottom:2px;
+              }
+            }
 
             &__choice label {
               display: block;
