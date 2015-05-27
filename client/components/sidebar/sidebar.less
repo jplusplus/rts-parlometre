@@ -14,15 +14,28 @@
   }
 
   &__toggler {
-    padding:2px 0;
+    padding:0;
     height: @header-height;
     border-top:2px solid white;
-    background: 240px center url("../assets/images/rts-white.svg") no-repeat;
-    background-size: @header-height - 10px auto;
+    background: 230px center url("../assets/images/rts-white.svg") no-repeat;
+    background-size: auto @header-height - 30px;
     border-bottom:1px solid fade(white, 10);
 
     .btn.btn-link {
       color:white;
+      font-size:20px;
+      margin-top:5px;
+    }
+
+    @media (max-width: @screen-sm-max) {
+      height: @header-height-sm;
+      background-position: 247px center;
+      background-size: auto @header-height-sm - 20px;
+
+      .btn.btn-link {
+        margin-top:2px;
+        font-size:16px;
+      }
     }
   }
 

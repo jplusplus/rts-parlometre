@@ -10,6 +10,26 @@
   &__toggler {
     position: absolute;
     left:0;
-    top:2px;
+    top:5px;
+    font-size:20px;
   }
+
+  &__logo {
+    height: @header-height - 30px;
+  }
+
+  @media (max-width: @screen-sm-max) {
+    height: @header-height-sm;
+    line-height: @header-height-sm;
+
+    &__toggler {
+      top:2px;
+      font-size:16px;
+    }
+
+    &__logo {
+      height: @header-height-sm - 20px;
+    }
+  }
+
 }
