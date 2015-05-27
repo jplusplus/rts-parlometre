@@ -5,6 +5,7 @@ angular.module 'rtsDialectsApp', [
   'ngResource',
   'ngSanitize',
   'ngAnimate',
+  'ngTouch',
   'ui.router',
   'ui.bootstrap',
   'restangular',
