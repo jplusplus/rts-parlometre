@@ -10,12 +10,12 @@ form.main__outro__save(ng-submit="save()")
 
     .form-group
       label Dans quelle commune résidez-vous ?
-      select.form-control(ng-model="leave", ng-options="city for city in cities")
+      select.form-control(ng-model="leave", ng-options="city.value as city.label group by city.group for city in cities")
         option(value="") Choisissez
 
     .form-group
       label Dans quelle commune êtes-vous né(e) ?
-      select.form-control(ng-model="born", ng-options="city for city in cities")
+      select.form-control(ng-model="born", ng-options="city.value as city.label group by city.group for city in cities")
         option(value="") Choisissez
 
     .form-group

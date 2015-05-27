@@ -2,7 +2,7 @@
 
 angular
   .module 'rtsDialectsApp'
-    .controller 'MainOutroSaveCtrl', ($scope, $state, $timeout, $modalInstance, Questions)->
+    .controller 'MainOutroSaveCtrl', ($scope, $state, $timeout, $modalInstance, Questions, cities)->
       # Transform the note into a human readable information
       $scope.translateNote = (note)->
         switch note
@@ -12,6 +12,8 @@ angular
             'Trés satisfait'
           else
             note
+      # Cities list available in the scope to build the select list
+      $scope.cities = cities
       # Close the popup
       $scope.close = $modalInstance.close
       # Saving function

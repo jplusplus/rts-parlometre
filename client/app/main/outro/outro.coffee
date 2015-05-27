@@ -7,3 +7,6 @@ angular.module 'rtsDialectsApp'
     url: ':hash'
     templateUrl: 'app/main/outro/outro.html'
     controller: 'MainOutroCtrl'
+    resolve:
+      cities: ($http)-> $http.get('assets/data/cities.json').then (res)-> res.data
+

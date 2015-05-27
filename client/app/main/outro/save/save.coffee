@@ -4,7 +4,7 @@ angular.module 'rtsDialectsApp'
 .config ($stateProvider) ->
   $stateProvider
   .state 'main.outro.save',
-    onEnter: ($state, $modal, Questions)->
+    onEnter: ($state, $modal, Questions, cities)->
       # Leave the modal if the user never done the form
       return $state.go('main.outro') unless do Questions.done
       # Function to go back to the parent state
@@ -16,4 +16,5 @@ angular.module 'rtsDialectsApp'
         resolve:
           # Resolve ineritence from the parent state
           questions: Questions.values
+          cities: -> cities
       ).result.then goBack, goBack
