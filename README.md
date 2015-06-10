@@ -1,5 +1,7 @@
 # RTS Dialects
 
+For production setup, see the [full installation guide](//github.com/jplusplus/rts-parlometre/blob/master/INSTALLATION.md).
+
 ## Install
 
 From the root directory

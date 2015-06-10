@@ -26,7 +26,7 @@ You have to install them globally with NPM:
 
 ### Download the app
 
-Now you need to download and extract a zip of the last version of the app.
+Now you need to download the last version of the app.
 The application will stand in `/opt/rts-parlometre`:
 
     cd /opt
