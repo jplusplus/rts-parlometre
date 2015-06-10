@@ -7,4 +7,6 @@ angular.module 'rtsDialectsApp'
     url: '{hash:[0-9a-fA-F]{1,25}}'
     templateUrl: 'app/main/outro/outro.html'
     controller: 'MainOutroCtrl'
-
+    resolve:
+      result: (Questions, $stateParams)->
+        Questions.result $stateParams.hash

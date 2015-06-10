@@ -396,7 +396,7 @@ module.exports = function (grunt) {
             'bower_components/**/*',
             'assets/images/{,*/}*.{webp,svg}',
             'assets/fonts/**/*',
-            'assets/data/**/*.json',
+            'assets/**/*.json',
             'index.html'
           ]
         }, {

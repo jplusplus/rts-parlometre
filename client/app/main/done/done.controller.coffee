@@ -8,4 +8,4 @@ angular
       # To create a link to outro
       $scope.hash = do Questions.hash
       # Pre-load results
-      Questions.pixels $scope.hash
+      Questions.result $scope.hash

@@ -1,3 +1,18 @@
 .map {
-  width:100%;
+  position: relative;
+
+  &__img {
+    width:100%;
+  }
+
+  &:after {
+    content:"";
+    background:url("../assets/images/mask.png") 0 0;
+    background-size: 100% auto;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+  }
 }

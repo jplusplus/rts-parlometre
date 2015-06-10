@@ -2,7 +2,7 @@
 
 angular
   .module 'rtsDialectsApp'
-    .service 'Questions', ($http, $rootScope, r)->
+    .service 'Questions', (app, $http, $rootScope, r)->
       new class
         constructor: ->
           @promise = $http
@@ -24,4 +24,6 @@ angular
         # Returns the last index without answer
         index: => _.findIndex @values(), (q)-> not q.userAnswer?
         # Get results for a given questions hash
-        pixels: (hash)=> r.all("routes").all("hash").get hash
+        result: (hash)=>
+          # Build a uniq path to the json describing the result
+          $http.get(app.cdn.location + hash + '.json', cache: yes).then (d)=> d.data

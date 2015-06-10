@@ -3,35 +3,36 @@ angular
     .directive 'map', (r, app, Questions)->
       restrict: 'AE'
       replace: no
-      template: '<img class="map" />'
+      template: '<div class="map"><img class="map__img" /></div>'
       scope:
         hash: "="
-        width: "=?"
       link: (scope, element, $attrs) ->
         # Drawing function
-        draw = (pixels)->
+        draw = (result)->
+          pixels = result.image
+          # Square size
+          square = 1
           # Each pixel is defined using an hexadecimal value
-          for pixel, index in pixels.slice(0, app.map.pixels)
-            # Pixel position
-            x = ~~( index % (scope.width / scope.square) ) * scope.square
-            y = ~~( index * (scope.square / scope.width) ) * scope.square
-            # Convert to decimal value
-            value = parseInt pixel, 16
-            # Get the color from the value
-            context.fillStyle = do color(value).hex
-            # Draw on the canvas
-            context.fillRect x, y, scope.square, scope.square
+          for pixel, index in pixels
+            if pixel isnt '.'
+              # Pixel position
+              x = ~~( index % (width / square) ) * square
+              y = height - ~~( index * (square / width) ) * square
+              # Convert to decimal value
+              value = parseInt pixel, 16
+              # Get the color from the value
+              context.fillStyle = do color(value).hex
+              # Draw on the canvas
+              context.fillRect x, y, square, square
           # Copy to the image tag
-          element.find(".map").attr 'src', canvas[0].toDataURL()
+          element.find(".map__img").attr 'src', canvas[0].toDataURL()
         # Create color scales
         color = chroma.scale(app.map.colors).domain app.map.domain
         # Default sizes
-        scope.width = scope.width or 150
-        scope.height = ~~(scope.width * 1.5)
-        # Square size
-        scope.square = Math.sqrt((scope.width * scope.height) / app.map.pixels)
+        width = 196
+        height = width
         # Canvas element
-        canvas = $("<canvas />").attr width: scope.width, height: scope.height
+        canvas = $("<canvas />").attr width: width, height: height
         context = canvas[0].getContext "2d"
         # Gets the map
-        Questions.pixels(scope.hash).then draw
+        Questions.result(scope.hash).then draw
