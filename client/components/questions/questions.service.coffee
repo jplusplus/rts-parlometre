@@ -17,8 +17,10 @@ angular
         get: => @promise
         # Get the raw values
         values: => @questions or []
-        # Generate a hash of answer using the user's answers
-        hash: => _.pluck(@values(), "userAnswer").join("")
+        # Generate a hash of answer using the user's answers.
+        # The hash is made to match with R-generated map. With R, indexes
+        # start at 1, not 0. So we add 1 to every answer's index.
+        hash: => _.map( _.pluck(@values(), "userAnswer"), (a)-> a + 1 ).join("")
         # True when the user answer all the questions
         done: => @hash().length is @values().length
         # Returns the last index without answer
