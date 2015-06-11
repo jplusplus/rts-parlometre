@@ -12,3201 +12,4484 @@
   {
     "value": 1,
     "label": "Aclens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 45,
+    "Y": 86
   },
   {
     "value": 2,
     "label": "Agiez",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 45,
+    "Y": 103
   },
   {
     "value": 3,
     "label": "Aigle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 80,
+    "Y": 58
   },
   {
     "value": 4,
     "label": "Aire-la-Ville",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 8,
+    "Y": 44
   },
   {
     "value": 5,
     "label": "Allaman",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 36,
+    "Y": 75
   },
   {
     "value": 6,
     "label": "Alle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 93,
+    "Y": 181
   },
   {
     "value": 7,
     "label": "Anières",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 22,
+    "Y": 54
   },
   {
     "value": 8,
     "label": "Anniviers",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 129,
+    "Y": 42
   },
   {
     "value": 9,
     "label": "Apples",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 39,
+    "Y": 84
   },
   {
     "value": 10,
     "label": "Arbaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 112,
+    "Y": 53
   },
   {
     "value": 11,
     "label": "Arconciel",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 92,
+    "Y": 105
   },
   {
     "value": 12,
     "label": "Ardon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 102,
+    "Y": 46
   },
   {
     "value": 13,
     "label": "Arnex-sur-Orbe",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 46,
+    "Y": 100
   },
   {
     "value": 14,
     "label": "Arzier-Le Muids",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 21,
+    "Y": 74
   },
   {
     "value": 15,
     "label": "Assens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 53,
+    "Y": 91
   },
   {
     "value": 16,
     "label": "Attalens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 79
   },
   {
     "value": 17,
     "label": "Aubonne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 36,
+    "Y": 78
   },
   {
     "value": 18,
     "label": "Autafond",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 113
   },
   {
     "value": 19,
     "label": "Autigny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 104
   },
   {
     "value": 20,
     "label": "Avenches",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 86,
+    "Y": 120
   },
   {
     "value": 21,
     "label": "Avry",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 110
   },
   {
     "value": 22,
     "label": "Avully",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 5,
+    "Y": 42
   },
   {
     "value": 23,
     "label": "Ayent",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 113,
+    "Y": 55
   },
   {
     "value": 24,
     "label": "Bagnes",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 99,
+    "Y": 30
   },
   {
     "value": 25,
     "label": "Ballaigues",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 38,
+    "Y": 104
   },
   {
     "value": 26,
     "label": "Ballens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 34,
+    "Y": 84
   },
   {
     "value": 27,
     "label": "Barberêche",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 95,
+    "Y": 118
   },
   {
     "value": 28,
     "label": "Bas-Intyamon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 89,
+    "Y": 85
   },
   {
     "value": 29,
     "label": "Basse-Allaine",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 85,
+    "Y": 187
   },
   {
     "value": 30,
     "label": "Bassins",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 23,
+    "Y": 74
   },
   {
     "value": 31,
     "label": "Bas-Vully",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 128
   },
   {
     "value": 32,
     "label": "Baulmes",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 46,
+    "Y": 111
   },
   {
     "value": 33,
     "label": "Bavois",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 49,
+    "Y": 99
   },
   {
     "value": 34,
     "label": "Begnins",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 25,
+    "Y": 72
   },
   {
     "value": 35,
     "label": "Belfaux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 114
   },
   {
     "value": 36,
     "label": "Bellevue",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 17,
+    "Y": 51
   },
   {
     "value": 37,
     "label": "Belmont-sur-Lausanne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 58,
+    "Y": 80
   },
   {
     "value": 38,
     "label": "Belmont-sur-Yverdon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 54,
+    "Y": 105
   },
   {
     "value": 39,
     "label": "Belprahon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 114,
+    "Y": 165
   },
   {
     "value": 40,
     "label": "Bercher",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 60,
+    "Y": 99
   },
   {
     "value": 41,
     "label": "Bernex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 10,
+    "Y": 43
   },
   {
     "value": 42,
     "label": "Berolle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 31,
+    "Y": 85
   },
   {
     "value": 43,
     "label": "Bettens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 50,
+    "Y": 92
   },
   {
     "value": 44,
     "label": "Bevaix",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 69,
+    "Y": 126
   },
   {
     "value": 45,
     "label": "Bex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 83,
+    "Y": 50
   },
   {
     "value": 46,
     "label": "Biel/Bienne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 102,
+    "Y": 148
   },
   {
     "value": 47,
     "label": "Bière",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 31,
+    "Y": 83
   },
   {
     "value": 48,
     "label": "Billens-Hennens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 75,
+    "Y": 99
   },
   {
     "value": 49,
     "label": "Bioley-Magnoux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 60,
+    "Y": 103
   },
   {
     "value": 50,
     "label": "Bioley-Orjulaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 52,
+    "Y": 92
   },
   {
     "value": 51,
     "label": "Blonay",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 74,
+    "Y": 74
   },
   {
     "value": 52,
     "label": "Boécourt",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 99,
+    "Y": 172
   },
   {
     "value": 53,
     "label": "Bofflens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 44,
+    "Y": 101
   },
   {
     "value": 54,
     "label": "Bogis-Bossey",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 18,
+    "Y": 62
   },
   {
     "value": 55,
     "label": "Boncourt",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 189
   },
   {
     "value": 56,
     "label": "Bonfol",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 94,
+    "Y": 187
   },
   {
     "value": 57,
     "label": "Bonvillars",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 58,
+    "Y": 116
   },
   {
     "value": 58,
     "label": "Borex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 19,
+    "Y": 65
   },
   {
     "value": 59,
     "label": "Bossonnens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 80
   },
   {
     "value": 60,
     "label": "Bottens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 56,
+    "Y": 92
   },
   {
     "value": 61,
     "label": "Botterens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 91
   },
   {
     "value": 62,
     "label": "Boudry",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 72,
+    "Y": 128
   },
   {
     "value": 63,
     "label": "Bougy-Villars",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 33,
+    "Y": 76
   },
   {
     "value": 64,
     "label": "Boulens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 61,
+    "Y": 98
   },
   {
     "value": 65,
     "label": "Bourg-en-Lavaux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 60,
+    "Y": 78
   },
   {
     "value": 66,
     "label": "Bourg-Saint-Pierre",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 98,
+    "Y": 17
   },
   {
     "value": 67,
     "label": "Bournens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 49,
+    "Y": 90
   },
   {
     "value": 68,
     "label": "Bourrignon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 102,
+    "Y": 177
   },
   {
     "value": 69,
     "label": "Boussens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 50,
+    "Y": 90
   },
   {
     "value": 70,
     "label": "Bovernier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 89,
+    "Y": 31
   },
   {
     "value": 71,
     "label": "Bremblens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 45,
+    "Y": 83
   },
   {
     "value": 72,
     "label": "Brenles",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 97
   },
   {
     "value": 73,
     "label": "Bretigny-sur-Morrens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 55,
+    "Y": 89
   },
   {
     "value": 74,
     "label": "Bretonnières",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 42,
+    "Y": 102
   },
   {
     "value": 75,
     "label": "Broc",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 90
   },
   {
     "value": 76,
     "label": "Brot-Plamboz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 63,
+    "Y": 131
   },
   {
     "value": 77,
     "label": "Buchillon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 38,
+    "Y": 75
   },
   {
     "value": 78,
     "label": "Bulle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 91
   },
   {
     "value": 79,
     "label": "Bullet",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 49,
+    "Y": 115
   },
   {
     "value": 80,
     "label": "Bure",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 83,
+    "Y": 183
   },
   {
     "value": 81,
     "label": "Bursinel",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 29,
+    "Y": 72
   },
   {
     "value": 82,
     "label": "Bursins",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 28,
+    "Y": 73
   },
   {
     "value": 83,
     "label": "Burtigny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 25,
+    "Y": 75
   },
   {
     "value": 84,
     "label": "Bussigny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 48,
+    "Y": 84
   },
   {
     "value": 85,
     "label": "Bussy-Chardonney",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 40,
+    "Y": 82
   },
   {
     "value": 86,
     "label": "Bussy-sur-Moudon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 68,
+    "Y": 99
   },
   {
     "value": 87,
     "label": "Carouge (GE)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 16,
+    "Y": 44
   },
   {
     "value": 88,
     "label": "Carrouge (VD)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 65,
+    "Y": 90
   },
   {
     "value": 89,
     "label": "Cartigny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 6,
+    "Y": 43
   },
   {
     "value": 90,
     "label": "Céligny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 19,
+    "Y": 62
   },
   {
     "value": 91,
     "label": "Châbles",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 68,
+    "Y": 114
   },
   {
     "value": 92,
     "label": "Chalais",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 121,
+    "Y": 52
   },
   {
     "value": 93,
     "label": "Chamblon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 52,
+    "Y": 109
   },
   {
     "value": 94,
     "label": "Chamoson",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 100,
+    "Y": 45
   },
   {
     "value": 95,
     "label": "Champagne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 56,
+    "Y": 115
   },
   {
     "value": 96,
     "label": "Champéry",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 72,
+    "Y": 42
   },
   {
     "value": 97,
     "label": "Champoz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 105,
+    "Y": 162
   },
   {
     "value": 98,
     "label": "Champtauroz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 66,
+    "Y": 107
   },
   {
     "value": 99,
     "label": "Champvent",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 50,
+    "Y": 110
   },
   {
     "value": 100,
     "label": "Chancy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 3,
+    "Y": 40
   },
   {
     "value": 101,
     "label": "Chapelle (Glâne)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 70,
+    "Y": 88
   },
   {
     "value": 102,
     "label": "Chardonne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 69,
+    "Y": 75
   },
   {
     "value": 103,
     "label": "Charrat",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 92,
+    "Y": 36
   },
   {
     "value": 104,
     "label": "Château-dOex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 92,
+    "Y": 75
   },
   {
     "value": 105,
     "label": "Châtel-Saint-Denis",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 75,
+    "Y": 81
   },
   {
     "value": 106,
     "label": "Châtillon (JU)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 109,
+    "Y": 170
   },
   {
     "value": 107,
     "label": "Châtonnaye",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 78,
+    "Y": 106
   },
   {
     "value": 108,
     "label": "Chavannes-de-Bogis",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 18,
+    "Y": 61
   },
   {
     "value": 109,
     "label": "Chavannes-des-Bois",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 15,
+    "Y": 58
   },
   {
     "value": 110,
     "label": "Chavannes-le-Chêne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 65,
+    "Y": 109
   },
   {
     "value": 111,
     "label": "Chavannes-le-Veyron",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 40,
+    "Y": 90
   },
   {
     "value": 112,
     "label": "Chavannes-près-Renens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 50,
+    "Y": 82
   },
   {
     "value": 113,
     "label": "Chavannes-sur-Moudon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 68,
+    "Y": 96
   },
   {
     "value": 114,
     "label": "Chavornay",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 50,
+    "Y": 101
   },
   {
     "value": 115,
     "label": "Cheiry",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 108
   },
   {
     "value": 116,
     "label": "Chêne-Bougeries",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 20,
+    "Y": 45
   },
   {
     "value": 117,
     "label": "Chêne-Bourg",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 20,
+    "Y": 45
   },
   {
     "value": 118,
     "label": "Chénens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 83,
+    "Y": 105
   },
   {
     "value": 119,
     "label": "Chêne-Pâquier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 65,
+    "Y": 108
   },
   {
     "value": 120,
     "label": "Chermignon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 121,
+    "Y": 53
   },
   {
     "value": 121,
     "label": "Chesalles-sur-Moudon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 70,
+    "Y": 98
   },
   {
     "value": 122,
     "label": "Cheseaux-Noréaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 58,
+    "Y": 110
   },
   {
     "value": 123,
     "label": "Cheseaux-sur-Lausanne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 52,
+    "Y": 88
   },
   {
     "value": 124,
     "label": "Chéserex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 19,
+    "Y": 68
   },
   {
     "value": 125,
     "label": "Chésopelloz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 112
   },
   {
     "value": 126,
     "label": "Chevilly",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 42,
+    "Y": 94
   },
   {
     "value": 127,
     "label": "Chevroux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 76,
+    "Y": 121
   },
   {
     "value": 128,
     "label": "Chexbres",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 65,
+    "Y": 76
   },
   {
     "value": 129,
     "label": "Cheyres",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 66,
+    "Y": 113
   },
   {
     "value": 130,
     "label": "Chigny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 42,
+    "Y": 81
   },
   {
     "value": 131,
     "label": "Chippis",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 124,
+    "Y": 53
   },
   {
     "value": 132,
     "label": "Choulex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 22,
+    "Y": 48
   },
   {
     "value": 133,
     "label": "Clarmont",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 40,
+    "Y": 84
   },
   {
     "value": 134,
     "label": "Clos du Doubs",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 92,
+    "Y": 171
   },
   {
     "value": 135,
     "label": "Coeuve",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 184
   },
   {
     "value": 136,
     "label": "Collombey-Muraz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 78,
+    "Y": 52
   },
   {
     "value": 137,
     "label": "Collonge-Bellerive",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 21,
+    "Y": 51
   },
   {
     "value": 138,
     "label": "Collonges",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 85,
+    "Y": 41
   },
   {
     "value": 139,
     "label": "Cologny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 19,
+    "Y": 47
   },
   {
     "value": 140,
     "label": "Commugny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 19,
+    "Y": 59
   },
   {
     "value": 141,
     "label": "Concise",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 61,
+    "Y": 117
   },
   {
     "value": 142,
     "label": "Confignon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 11,
+    "Y": 43
   },
   {
     "value": 143,
     "label": "Conthey",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 103,
+    "Y": 49
   },
   {
     "value": 144,
     "label": "Coppet",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 20,
+    "Y": 58
   },
   {
     "value": 145,
     "label": "Corban",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 119,
+    "Y": 172
   },
   {
     "value": 146,
     "label": "Corbeyrier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 61
   },
   {
     "value": 147,
     "label": "Corbières",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 96
   },
   {
     "value": 148,
     "label": "Corcelles (BE)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 118,
+    "Y": 165
   },
   {
     "value": 149,
     "label": "Corcelles-Cormondrèche",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 73,
+    "Y": 132
   },
   {
     "value": 150,
     "label": "Corcelles-le-Jorat",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 63,
+    "Y": 90
   },
   {
     "value": 151,
     "label": "Corcelles-près-Concise",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 60,
+    "Y": 117
   },
   {
     "value": 152,
     "label": "Corcelles-près-Payerne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 80,
+    "Y": 115
   },
   {
     "value": 153,
     "label": "Corcelles-sur-Chavornay",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 52,
+    "Y": 101
   },
   {
     "value": 154,
     "label": "Corgémont",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 93,
+    "Y": 155
   },
   {
     "value": 155,
     "label": "Corminboeuf",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 112
   },
   {
     "value": 156,
     "label": "Cormoret",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 153
   },
   {
     "value": 157,
     "label": "Cornol",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 95,
+    "Y": 179
   },
   {
     "value": 158,
     "label": "Corpataux-Magnedens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 105
   },
   {
     "value": 159,
     "label": "Corseaux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 69,
+    "Y": 75
   },
   {
     "value": 160,
     "label": "Corserey",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 82,
+    "Y": 108
   },
   {
     "value": 161,
     "label": "Corsier-sur-Vevey",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 70,
+    "Y": 75
   },
   {
     "value": 162,
     "label": "Cortaillod",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 127
   },
   {
     "value": 163,
     "label": "Cortébert",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 155
   },
   {
     "value": 164,
     "label": "Cossonay",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 45,
+    "Y": 89
   },
   {
     "value": 165,
     "label": "Cottens (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 85,
+    "Y": 106
   },
   {
     "value": 166,
     "label": "Cottens (VD)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 41,
+    "Y": 86
   },
   {
     "value": 167,
     "label": "Courchapoix",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 117,
+    "Y": 172
   },
   {
     "value": 168,
     "label": "Courchavon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 183
   },
   {
     "value": 169,
     "label": "Courgenay",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 92,
+    "Y": 178
   },
   {
     "value": 170,
     "label": "Courgevaux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 123
   },
   {
     "value": 171,
     "label": "Courrendlin",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 112,
+    "Y": 171
   },
   {
     "value": 172,
     "label": "Courroux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 113,
+    "Y": 174
   },
   {
     "value": 173,
     "label": "Court",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 108,
+    "Y": 160
   },
   {
     "value": 174,
     "label": "Courtedoux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 86,
+    "Y": 179
   },
   {
     "value": 175,
     "label": "Courtelary",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 154
   },
   {
     "value": 176,
     "label": "Courtepin",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 92,
+    "Y": 119
   },
   {
     "value": 177,
     "label": "Courtételle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 107,
+    "Y": 171
   },
   {
     "value": 178,
     "label": "Crans-près-Céligny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 21,
+    "Y": 63
   },
   {
     "value": 179,
     "label": "Crassier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 18,
+    "Y": 65
   },
   {
     "value": 180,
     "label": "Cremin",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 70,
+    "Y": 103
   },
   {
     "value": 181,
     "label": "Crémines",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 116,
+    "Y": 165
   },
   {
     "value": 182,
     "label": "Cressier (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 93,
+    "Y": 122
   },
   {
     "value": 183,
     "label": "Cressier (NE)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 85,
+    "Y": 139
   },
   {
     "value": 184,
     "label": "Crésuz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 93,
+    "Y": 91
   },
   {
     "value": 185,
     "label": "Crissier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 50,
+    "Y": 84
   },
   {
     "value": 186,
     "label": "Cronay",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 59,
+    "Y": 107
   },
   {
     "value": 187,
     "label": "Croy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 42,
+    "Y": 100
   },
   {
     "value": 188,
     "label": "Cuarnens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 39,
+    "Y": 92
   },
   {
     "value": 189,
     "label": "Cudrefin",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 129
   },
   {
     "value": 190,
     "label": "Cugy (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 74,
+    "Y": 113
   },
   {
     "value": 191,
     "label": "Cugy (VD)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 55,
+    "Y": 88
   },
   {
     "value": 192,
     "label": "Curtilles",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 101
   },
   {
     "value": 193,
     "label": "Daillens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 48,
+    "Y": 92
   },
   {
     "value": 194,
     "label": "Damphreux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 187
   },
   {
     "value": 195,
     "label": "Dardagny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 5,
+    "Y": 45
   },
   {
     "value": 196,
     "label": "Delémont",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 108,
+    "Y": 174
   },
   {
     "value": 197,
     "label": "Delley-Portalban",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 80,
+    "Y": 124
   },
   {
     "value": 198,
     "label": "Démoret",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 64,
+    "Y": 106
   },
   {
     "value": 199,
     "label": "Denens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 41,
+    "Y": 80
   },
   {
     "value": 200,
     "label": "Denges",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 47,
+    "Y": 81
   },
   {
     "value": 201,
     "label": "Develier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 105,
+    "Y": 173
   },
   {
     "value": 202,
     "label": "Domdidier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 118
   },
   {
     "value": 203,
     "label": "Dompierre (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 82,
+    "Y": 117
   },
   {
     "value": 204,
     "label": "Dompierre (VD)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 73,
+    "Y": 101
   },
   {
     "value": 205,
     "label": "Donneloye",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 61,
+    "Y": 105
   },
   {
     "value": 206,
     "label": "Dorénaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 85,
+    "Y": 39
   },
   {
     "value": 207,
     "label": "Düdingen",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 97,
+    "Y": 116
   },
   {
     "value": 208,
     "label": "Duillier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 23,
+    "Y": 68
   },
   {
     "value": 209,
     "label": "Dully",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 28,
+    "Y": 71
   },
   {
     "value": 210,
     "label": "Echallens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 54,
+    "Y": 94
   },
   {
     "value": 211,
     "label": "Echandens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 47,
+    "Y": 82
   },
   {
     "value": 212,
     "label": "Echarlens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 94
   },
   {
     "value": 213,
     "label": "Echichens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 42,
+    "Y": 85
   },
   {
     "value": 214,
     "label": "Eclépens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 46,
+    "Y": 95
   },
   {
     "value": 215,
     "label": "Ecublens (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 68,
+    "Y": 90
   },
   {
     "value": 216,
     "label": "Ecublens (VD)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 49,
+    "Y": 81
   },
   {
     "value": 217,
     "label": "Enges",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 140
   },
   {
     "value": 218,
     "label": "Epalinges",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 57,
+    "Y": 83
   },
   {
     "value": 219,
     "label": "Ependes (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 94,
+    "Y": 106
   },
   {
     "value": 220,
     "label": "Ependes (VD)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 53,
+    "Y": 105
   },
   {
     "value": 221,
     "label": "Essertes",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 66,
+    "Y": 85
   },
   {
     "value": 222,
     "label": "Essertines-sur-Rolle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 30,
+    "Y": 78
   },
   {
     "value": 223,
     "label": "Essertines-sur-Yverdon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 55,
+    "Y": 105
   },
   {
     "value": 224,
     "label": "Estavayer-le-Lac",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 117
   },
   {
     "value": 225,
     "label": "Etagnières",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 53,
+    "Y": 89
   },
   {
     "value": 226,
     "label": "Etoy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 38,
+    "Y": 77
   },
   {
     "value": 227,
     "label": "Evilard",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 101,
+    "Y": 150
   },
   {
     "value": 228,
     "label": "Evionnaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 42
   },
   {
     "value": 229,
     "label": "Evolène",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 119,
+    "Y": 25
   },
   {
     "value": 230,
     "label": "Eysins",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 21,
+    "Y": 65
   },
   {
     "value": 231,
     "label": "Fahy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 180
   },
   {
     "value": 232,
     "label": "Faoug",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 123
   },
   {
     "value": 233,
     "label": "Farvagny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 103
   },
   {
     "value": 234,
     "label": "Féchy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 34,
+    "Y": 76
   },
   {
     "value": 235,
     "label": "Ferpicloz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 95,
+    "Y": 105
   },
   {
     "value": 236,
     "label": "Ferreyres",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 43,
+    "Y": 96
   },
   {
     "value": 237,
     "label": "Fétigny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 76,
+    "Y": 111
   },
   {
     "value": 238,
     "label": "Fey",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 58,
+    "Y": 98
   },
   {
     "value": 239,
     "label": "Fiez",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 54,
+    "Y": 114
   },
   {
     "value": 240,
     "label": "Finhaut",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 80,
+    "Y": 32
   },
   {
     "value": 241,
     "label": "Fontenais",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 86,
+    "Y": 177
   },
   {
     "value": 242,
     "label": "Forel (Lavaux)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 65,
+    "Y": 83
   },
   {
     "value": 243,
     "label": "Forel-sur-Lucens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 69,
+    "Y": 103
   },
   {
     "value": 244,
     "label": "Founex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 20,
+    "Y": 60
   },
   {
     "value": 245,
     "label": "Fresens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 63,
+    "Y": 121
   },
   {
     "value": 246,
     "label": "Fribourg",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 96,
+    "Y": 111
   },
   {
     "value": 247,
     "label": "Froideville",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 58,
+    "Y": 89
   },
   {
     "value": 248,
     "label": "Fully",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 38
   },
   {
     "value": 640,
     "label": "Genève",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": null,
+    "Y": null
   },
   {
     "value": 249,
     "label": "Genolier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 22,
+    "Y": 71
   },
   {
     "value": 250,
     "label": "Genthod",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 17,
+    "Y": 53
   },
   {
     "value": 251,
     "label": "Giez",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 53,
+    "Y": 113
   },
   {
     "value": 252,
     "label": "Gilly",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 29,
+    "Y": 74
   },
   {
     "value": 253,
     "label": "Gimel",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 29,
+    "Y": 79
   },
   {
     "value": 254,
     "label": "Gingins",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 19,
+    "Y": 69
   },
   {
     "value": 255,
     "label": "Givisiez",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 92,
+    "Y": 113
   },
   {
     "value": 256,
     "label": "Givrins",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 21,
+    "Y": 71
   },
   {
     "value": 257,
     "label": "Gland",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 26,
+    "Y": 70
   },
   {
     "value": 258,
     "label": "Gletterens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 78,
+    "Y": 122
   },
   {
     "value": 259,
     "label": "Gollion",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 45,
+    "Y": 88
   },
   {
     "value": 260,
     "label": "Gorgier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 66,
+    "Y": 123
   },
   {
     "value": 261,
     "label": "Goumoëns",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 51,
+    "Y": 95
   },
   {
     "value": 262,
     "label": "Grancy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 41,
+    "Y": 89
   },
   {
     "value": 263,
     "label": "Grandcour",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 77,
+    "Y": 119
   },
   {
     "value": 264,
     "label": "Grandfontaine",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 78,
+    "Y": 177
   },
   {
     "value": 265,
     "label": "Grandson",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 55,
+    "Y": 112
   },
   {
     "value": 266,
     "label": "Grandval",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 115,
+    "Y": 165
   },
   {
     "value": 267,
     "label": "Grandvillard",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 89,
+    "Y": 82
   },
   {
     "value": 268,
     "label": "Granges-Paccot",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 93,
+    "Y": 114
   },
   {
     "value": 269,
     "label": "Granges (Veveyse)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 69,
+    "Y": 81
   },
   {
     "value": 270,
     "label": "Grangettes",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 80,
+    "Y": 98
   },
   {
     "value": 271,
     "label": "Grens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 20,
+    "Y": 67
   },
   {
     "value": 272,
     "label": "Grimisuat",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 111,
+    "Y": 50
   },
   {
     "value": 273,
     "label": "Grolley",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 115
   },
   {
     "value": 274,
     "label": "Grône",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 117,
+    "Y": 50
   },
   {
     "value": 275,
     "label": "Gruyères",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 89,
+    "Y": 88
   },
   {
     "value": 276,
     "label": "Gryon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 53
   },
   {
     "value": 277,
     "label": "Gy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 25,
+    "Y": 51
   },
   {
     "value": 278,
     "label": "Haute-Ajoie",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 83,
+    "Y": 177
   },
   {
     "value": 279,
     "label": "Hauterive (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 89,
+    "Y": 107
   },
   {
     "value": 280,
     "label": "Hauterive (NE)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 80,
+    "Y": 135
   },
   {
     "value": 281,
     "label": "Haute-Sorne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 102,
+    "Y": 171
   },
   {
     "value": 282,
     "label": "Hauteville",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 97
   },
   {
     "value": 283,
     "label": "Haut-Intyamon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 80
   },
   {
     "value": 284,
     "label": "Heitenried",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 105,
+    "Y": 115
   },
   {
     "value": 285,
     "label": "Henniez",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 74,
+    "Y": 105
   },
   {
     "value": 286,
     "label": "Hérémence",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 115,
+    "Y": 41
   },
   {
     "value": 287,
     "label": "Hermance",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 24,
+    "Y": 56
   },
   {
     "value": 288,
     "label": "Hermenches",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 64,
+    "Y": 94
   },
   {
     "value": 289,
     "label": "Icogne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 116,
+    "Y": 55
   },
   {
     "value": 290,
     "label": "Isérables",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 101,
+    "Y": 40
   },
   {
     "value": 291,
     "label": "Jongny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 70,
+    "Y": 76
   },
   {
     "value": 292,
     "label": "Jorat-Menthue",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 61,
+    "Y": 94
   },
   {
     "value": 293,
     "label": "Jouxtens-Mézery",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 52,
+    "Y": 84
   },
   {
     "value": 294,
     "label": "Jussy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 26,
+    "Y": 49
   },
   {
     "value": 295,
     "label": "La Baroche",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 99,
+    "Y": 178
   },
   {
     "value": 296,
     "label": "LAbbaye",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 30,
+    "Y": 95
   },
   {
     "value": 297,
     "label": "LAbergement",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 43,
+    "Y": 107
   },
   {
     "value": 298,
     "label": "La Brévine",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 53,
+    "Y": 132
   },
   {
     "value": 299,
     "label": "La Brillaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 83,
+    "Y": 107
   },
   {
     "value": 300,
     "label": "La Chaux-de-Fonds",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 70,
+    "Y": 145
   },
   {
     "value": 301,
     "label": "La Chaux-des-Breuleux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 85,
+    "Y": 158
   },
   {
     "value": 302,
     "label": "La Chaux-du-Milieu",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 60,
+    "Y": 135
   },
   {
     "value": 303,
     "label": "Laconnex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 8,
+    "Y": 40
   },
   {
     "value": 304,
     "label": "La Côte-aux-Fées",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 44,
+    "Y": 119
   },
   {
     "value": 305,
     "label": "La Ferrière",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 74,
+    "Y": 148
   },
   {
     "value": 306,
     "label": "La Folliaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 78,
+    "Y": 102
   },
   {
     "value": 307,
     "label": "Lajoux (JU)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 95,
+    "Y": 165
   },
   {
     "value": 308,
     "label": "Lancy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 14,
+    "Y": 43
   },
   {
     "value": 309,
     "label": "La Neuveville",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 141
   },
   {
     "value": 310,
     "label": "La Praz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 39,
+    "Y": 97
   },
   {
     "value": 311,
     "label": "La Rippe",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 17,
+    "Y": 66
   },
   {
     "value": 312,
     "label": "La Roche",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 93,
+    "Y": 100
   },
   {
     "value": 313,
     "label": "La Sagne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 68,
+    "Y": 138
   },
   {
     "value": 314,
     "label": "La Sarraz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 45,
+    "Y": 96
   },
   {
     "value": 315,
     "label": "La Sonnaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 93,
+    "Y": 115
   },
   {
     "value": 316,
     "label": "La Tène",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 83,
+    "Y": 135
   },
   {
     "value": 317,
     "label": "La Tour-de-Peilz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 73
   },
   {
     "value": 318,
     "label": "Lausanne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 54,
+    "Y": 80
   },
   {
     "value": 319,
     "label": "La Verrerie",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 76,
+    "Y": 89
   },
   {
     "value": 320,
     "label": "Lavey-Morcles",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 47
   },
   {
     "value": 321,
     "label": "Lavigny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 37,
+    "Y": 78
   },
   {
     "value": 322,
     "label": "Le Bémont (JU)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 163
   },
   {
     "value": 323,
     "label": "Le Cerneux-Péquignot",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 57,
+    "Y": 136
   },
   {
     "value": 324,
     "label": "Léchelles",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 86,
+    "Y": 116
   },
   {
     "value": 325,
     "label": "Le Chenit",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 22,
+    "Y": 88
   },
   {
     "value": 326,
     "label": "Le Flon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 73,
+    "Y": 90
   },
   {
     "value": 327,
     "label": "Le Glèbe",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 103
   },
   {
     "value": 328,
     "label": "Le Grand-Saconnex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 13,
+    "Y": 49
   },
   {
     "value": 329,
     "label": "Le Landeron",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 139
   },
   {
     "value": 330,
     "label": "Le Lieu",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 27,
+    "Y": 95
   },
   {
     "value": 331,
     "label": "Le Locle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 64,
+    "Y": 140
   },
   {
     "value": 332,
     "label": "Le Mont-sur-Lausanne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 54,
+    "Y": 84
   },
   {
     "value": 333,
     "label": "Le Mouret",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 98,
+    "Y": 105
   },
   {
     "value": 334,
     "label": "Le Noirmont",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 80,
+    "Y": 159
   },
   {
     "value": 335,
     "label": "Lens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 117,
+    "Y": 52
   },
   {
     "value": 336,
     "label": "Le Pâquier (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 88
   },
   {
     "value": 337,
     "label": "Les Agettes",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 111,
+    "Y": 46
   },
   {
     "value": 338,
     "label": "Les Bois",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 76,
+    "Y": 153
   },
   {
     "value": 339,
     "label": "Les Brenets",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 60,
+    "Y": 141
   },
   {
     "value": 340,
     "label": "Les Breuleux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 83,
+    "Y": 157
   },
   {
     "value": 341,
     "label": "Les Enfers",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 86,
+    "Y": 166
   },
   {
     "value": 342,
     "label": "Les Montets",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 112
   },
   {
     "value": 343,
     "label": "Les Ponts-de-Martel",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 62,
+    "Y": 134
   },
   {
     "value": 344,
     "label": "Les Verrières",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 43,
+    "Y": 123
   },
   {
     "value": 345,
     "label": "Leukerbad",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 131,
+    "Y": 64
   },
   {
     "value": 346,
     "label": "Le Vaud",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 24,
+    "Y": 76
   },
   {
     "value": 347,
     "label": "Leysin",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 83,
+    "Y": 60
   },
   {
     "value": 348,
     "label": "Leytron",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 96,
+    "Y": 43
   },
   {
     "value": 349,
     "label": "Liddes",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 96,
+    "Y": 23
   },
   {
     "value": 350,
     "label": "Lignerolle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 41,
+    "Y": 105
   },
   {
     "value": 351,
     "label": "Lignières",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 142
   },
   {
     "value": 352,
     "label": "LIsle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 37,
+    "Y": 91
   },
   {
     "value": 353,
     "label": "Lonay",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 46,
+    "Y": 81
   },
   {
     "value": 354,
     "label": "Longirod",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 25,
+    "Y": 78
   },
   {
     "value": 355,
     "label": "Lovatens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 72,
+    "Y": 100
   },
   {
     "value": 356,
     "label": "Loveresse",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 101,
+    "Y": 161
   },
   {
     "value": 357,
     "label": "Lucens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 70,
+    "Y": 101
   },
   {
     "value": 358,
     "label": "Lugnez",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 187
   },
   {
     "value": 359,
     "label": "Luins",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 26,
+    "Y": 73
   },
   {
     "value": 360,
     "label": "Lully (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 69,
+    "Y": 113
   },
   {
     "value": 361,
     "label": "Lussery-Villars",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 46,
+    "Y": 93
   },
   {
     "value": 362,
     "label": "Lussy-sur-Morges",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 40,
+    "Y": 79
   },
   {
     "value": 363,
     "label": "Lutry",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 58,
+    "Y": 80
   },
   {
     "value": 364,
     "label": "Maracon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 72,
+    "Y": 84
   },
   {
     "value": 365,
     "label": "Marchissy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 25,
+    "Y": 77
   },
   {
     "value": 366,
     "label": "Marly",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 95,
+    "Y": 108
   },
   {
     "value": 367,
     "label": "Marsens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 95
   },
   {
     "value": 368,
     "label": "Martigny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 34
   },
   {
     "value": 369,
     "label": "Martigny-Combe",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 86,
+    "Y": 32
   },
   {
     "value": 370,
     "label": "Massongex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 81,
+    "Y": 49
   },
   {
     "value": 371,
     "label": "Massonnens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 80,
+    "Y": 100
   },
   {
     "value": 372,
     "label": "Mathod",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 49,
+    "Y": 108
   },
   {
     "value": 373,
     "label": "Matran",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 110
   },
   {
     "value": 374,
     "label": "Mauborget",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 53,
+    "Y": 118
   },
   {
     "value": 375,
     "label": "Meinier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 23,
+    "Y": 50
   },
   {
     "value": 376,
     "label": "Ménières",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 73,
+    "Y": 110
   },
   {
     "value": 377,
     "label": "Mervelier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 121,
+    "Y": 172
   },
   {
     "value": 378,
     "label": "Mettembert",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 107,
+    "Y": 178
   },
   {
     "value": 379,
     "label": "Meyriez",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 125
   },
   {
     "value": 380,
     "label": "Meyrin",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 13,
+    "Y": 48
   },
   {
     "value": 381,
     "label": "Mézières (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 99
   },
   {
     "value": 382,
     "label": "Mézières (VD)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 65,
+    "Y": 89
   },
   {
     "value": 383,
     "label": "Miège",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 124,
+    "Y": 57
   },
   {
     "value": 384,
     "label": "Mies",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 18,
+    "Y": 57
   },
   {
     "value": 385,
     "label": "Milvignes",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 73,
+    "Y": 131
   },
   {
     "value": 386,
     "label": "Misery-Courtion",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 89,
+    "Y": 119
   },
   {
     "value": 387,
     "label": "Missy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 80,
+    "Y": 120
   },
   {
     "value": 388,
     "label": "Mollens (VD)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 34,
+    "Y": 87
   },
   {
     "value": 389,
     "label": "Molondin",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 63,
+    "Y": 107
   },
   {
     "value": 390,
     "label": "Montagny (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 81,
+    "Y": 113
   },
   {
     "value": 391,
     "label": "Montagny-près-Yverdon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 53,
+    "Y": 111
   },
   {
     "value": 392,
     "label": "Montalchez",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 63,
+    "Y": 122
   },
   {
     "value": 393,
     "label": "Montana",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 121,
+    "Y": 54
   },
   {
     "value": 394,
     "label": "Montanaire",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 63,
+    "Y": 104
   },
   {
     "value": 395,
     "label": "Montcherand",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 45,
+    "Y": 104
   },
   {
     "value": 396,
     "label": "Montfaucon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 165
   },
   {
     "value": 397,
     "label": "Montherod",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 34,
+    "Y": 78
   },
   {
     "value": 398,
     "label": "Monthey",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 49
   },
   {
     "value": 399,
     "label": "Montilliez",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 60,
+    "Y": 95
   },
   {
     "value": 400,
     "label": "Mont-la-Ville",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 37,
+    "Y": 95
   },
   {
     "value": 401,
     "label": "Mont-Noble",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 116,
+    "Y": 44
   },
   {
     "value": 402,
     "label": "Montpreveyres",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 63,
+    "Y": 87
   },
   {
     "value": 403,
     "label": "Montreux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 75,
+    "Y": 73
   },
   {
     "value": 404,
     "label": "Montricher",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 35,
+    "Y": 90
   },
   {
     "value": 405,
     "label": "Mont-sur-Rolle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 31,
+    "Y": 75
   },
   {
     "value": 406,
     "label": "Morges",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 44,
+    "Y": 79
   },
   {
     "value": 407,
     "label": "Morlon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 89,
+    "Y": 92
   },
   {
     "value": 408,
     "label": "Moudon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 67,
+    "Y": 97
   },
   {
     "value": 409,
     "label": "Moutier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 111,
+    "Y": 165
   },
   {
     "value": 410,
     "label": "Movelier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 107,
+    "Y": 179
   },
   {
     "value": 411,
     "label": "Muriaux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 82,
+    "Y": 159
   },
   {
     "value": 412,
     "label": "Murist",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 68,
+    "Y": 110
   },
   {
     "value": 413,
     "label": "Nendaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 106,
+    "Y": 45
   },
   {
     "value": 414,
     "label": "Neuchâtel",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 137
   },
   {
     "value": 415,
     "label": "Nidau",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 101,
+    "Y": 147
   },
   {
     "value": 416,
     "label": "Nods",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 89,
+    "Y": 146
   },
   {
     "value": 417,
     "label": "Noréaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 85,
+    "Y": 112
   },
   {
     "value": 418,
     "label": "Novalles",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 52,
+    "Y": 115
   },
   {
     "value": 419,
     "label": "Noville",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 74,
+    "Y": 65
   },
   {
     "value": 420,
     "label": "Nuvilly",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 70,
+    "Y": 110
   },
   {
     "value": 421,
     "label": "Nyon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 24,
+    "Y": 65
   },
   {
     "value": 422,
     "label": "Ogens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 61,
+    "Y": 102
   },
   {
     "value": 423,
     "label": "Ollon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 54
   },
   {
     "value": 424,
     "label": "Onex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 13,
+    "Y": 43
   },
   {
     "value": 425,
     "label": "Onnens (VD)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 59,
+    "Y": 116
   },
   {
     "value": 426,
     "label": "Oppens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 59,
+    "Y": 102
   },
   {
     "value": 427,
     "label": "Orbe",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 47,
+    "Y": 103
   },
   {
     "value": 428,
     "label": "Ormont-Dessus",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 94,
+    "Y": 61
   },
   {
     "value": 429,
     "label": "Orny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 46,
+    "Y": 97
   },
   {
     "value": 430,
     "label": "Oron",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 72,
+    "Y": 86
   },
   {
     "value": 431,
     "label": "Orsières",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 25
   },
   {
     "value": 432,
     "label": "Orvin",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 96,
+    "Y": 151
   },
   {
     "value": 433,
     "label": "Orzens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 58,
+    "Y": 103
   },
   {
     "value": 434,
     "label": "Oulens-sous-Echallens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 50,
+    "Y": 94
   },
   {
     "value": 435,
     "label": "Pailly",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 57,
+    "Y": 100
   },
   {
     "value": 436,
     "label": "Pampigny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 39,
+    "Y": 87
   },
   {
     "value": 437,
     "label": "Paudex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 57,
+    "Y": 79
   },
   {
     "value": 438,
     "label": "Payerne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 78,
+    "Y": 114
   },
   {
     "value": 439,
     "label": "Penthalaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 46,
+    "Y": 91
   },
   {
     "value": 440,
     "label": "Penthaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 47,
+    "Y": 89
   },
   {
     "value": 441,
     "label": "Penthéréaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 52,
+    "Y": 98
   },
   {
     "value": 442,
     "label": "Perly-Certoux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 12,
+    "Y": 41
   },
   {
     "value": 443,
     "label": "Perrefitte",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 109,
+    "Y": 164
   },
   {
     "value": 444,
     "label": "Perroy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 34,
+    "Y": 75
   },
   {
     "value": 445,
     "label": "Péry-La Heutte",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 100,
+    "Y": 155
   },
   {
     "value": 446,
     "label": "Peseux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 74,
+    "Y": 132
   },
   {
     "value": 447,
     "label": "Petit-Val",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 98,
+    "Y": 164
   },
   {
     "value": 448,
     "label": "Pierrafortscha",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 97,
+    "Y": 110
   },
   {
     "value": 449,
     "label": "Plan-les-Ouates",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 14,
+    "Y": 42
   },
   {
     "value": 450,
     "label": "Plateau de Diesse",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 92,
+    "Y": 146
   },
   {
     "value": 451,
     "label": "Pleigne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 101,
+    "Y": 180
   },
   {
     "value": 452,
     "label": "Poliez-Pittet",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 58,
+    "Y": 92
   },
   {
     "value": 453,
     "label": "Pompaples",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 45,
+    "Y": 97
   },
   {
     "value": 454,
     "label": "Pomy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 57,
+    "Y": 107
   },
   {
     "value": 455,
     "label": "Pont-en-Ogoz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 89,
+    "Y": 99
   },
   {
     "value": 456,
     "label": "Ponthaux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 113
   },
   {
     "value": 457,
     "label": "Pont-la-Ville",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 100
   },
   {
     "value": 458,
     "label": "Porrentruy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 89,
+    "Y": 180
   },
   {
     "value": 459,
     "label": "Port",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 102,
+    "Y": 146
   },
   {
     "value": 460,
     "label": "Prangins",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 25,
+    "Y": 67
   },
   {
     "value": 461,
     "label": "Pregny-Chambésy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 16,
+    "Y": 50
   },
   {
     "value": 462,
     "label": "Premier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 40,
+    "Y": 101
   },
   {
     "value": 463,
     "label": "Presinge",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 25,
+    "Y": 47
   },
   {
     "value": 464,
     "label": "Préverenges",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 46,
+    "Y": 80
   },
   {
     "value": 465,
     "label": "Prévondavaux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 67,
+    "Y": 103
   },
   {
     "value": 466,
     "label": "Prévonloup",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 73,
+    "Y": 100
   },
   {
     "value": 467,
     "label": "Prez-vers-Noréaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 110
   },
   {
     "value": 468,
     "label": "Prilly",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 52,
+    "Y": 82
   },
   {
     "value": 469,
     "label": "Provence",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 62,
+    "Y": 121
   },
   {
     "value": 470,
     "label": "Puidoux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 66,
+    "Y": 78
   },
   {
     "value": 471,
     "label": "Pully",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 58,
+    "Y": 82
   },
   {
     "value": 472,
     "label": "Puplinge",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 23,
+    "Y": 46
   },
   {
     "value": 473,
     "label": "Rances",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 47,
+    "Y": 107
   },
   {
     "value": 474,
     "label": "Randogne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 122,
+    "Y": 55
   },
   {
     "value": 475,
     "label": "Rebeuvelier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 114,
+    "Y": 170
   },
   {
     "value": 476,
     "label": "Reconvilier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 99,
+    "Y": 160
   },
   {
     "value": 477,
     "label": "Remaufens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 73,
+    "Y": 81
   },
   {
     "value": 478,
     "label": "Renan (BE)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 75,
+    "Y": 147
   },
   {
     "value": 479,
     "label": "Renens (VD)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 51,
+    "Y": 82
   },
   {
     "value": 480,
     "label": "Rennaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 76,
+    "Y": 64
   },
   {
     "value": 481,
     "label": "Reverolle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 39,
+    "Y": 83
   },
   {
     "value": 482,
     "label": "Riaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 94
   },
   {
     "value": 483,
     "label": "Riddes",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 101,
+    "Y": 39
   },
   {
     "value": 484,
     "label": "Rivaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 65,
+    "Y": 75
   },
   {
     "value": 485,
     "label": "Rochefort",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 69,
+    "Y": 131
   },
   {
     "value": 486,
     "label": "Roches (BE)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 112,
+    "Y": 167
   },
   {
     "value": 487,
     "label": "Rolle",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 31,
+    "Y": 74
   },
   {
     "value": 488,
     "label": "Romainmôtier-Envy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 41,
+    "Y": 100
   },
   {
     "value": 489,
     "label": "Romanel-sur-Lausanne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 52,
+    "Y": 85
   },
   {
     "value": 490,
     "label": "Romanel-sur-Morges",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 45,
+    "Y": 84
   },
   {
     "value": 491,
     "label": "Romont (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 76,
+    "Y": 100
   },
   {
     "value": 492,
     "label": "Ropraz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 63,
+    "Y": 91
   },
   {
     "value": 493,
     "label": "Rossemaison",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 109,
+    "Y": 172
   },
   {
     "value": 494,
     "label": "Rossens (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 102
   },
   {
     "value": 495,
     "label": "Rossinière",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 86,
+    "Y": 74
   },
   {
     "value": 496,
     "label": "Rougemont",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 96,
+    "Y": 76
   },
   {
     "value": 497,
     "label": "Rue",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 70,
+    "Y": 90
   },
   {
     "value": 498,
     "label": "Rueyres",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 59,
+    "Y": 100
   },
   {
     "value": 499,
     "label": "Rueyres-les-Prés",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 76,
+    "Y": 118
   },
   {
     "value": 500,
     "label": "Russin",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 6,
+    "Y": 44
   },
   {
     "value": 501,
     "label": "Russy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 83,
+    "Y": 116
   },
   {
     "value": 502,
     "label": "Safnern",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 108,
+    "Y": 150
   },
   {
     "value": 503,
     "label": "Saicourt",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 96,
+    "Y": 163
   },
   {
     "value": 504,
     "label": "Saignelégier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 163
   },
   {
     "value": 505,
     "label": "Saillon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 96,
+    "Y": 41
   },
   {
     "value": 506,
     "label": "Saint-Aubin (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 82,
+    "Y": 123
   },
   {
     "value": 507,
     "label": "Saint-Aubin-Sauges",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 65,
+    "Y": 122
   },
   {
     "value": 508,
     "label": "Saint-Blaise",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 82,
+    "Y": 135
   },
   {
     "value": 509,
     "label": "Saint-Brais",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 167
   },
   {
     "value": 510,
     "label": "Saint-Cergue",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 11,
+    "Y": 75
   },
   {
     "value": 511,
     "label": "Sainte-Croix",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 42,
+    "Y": 114
   },
   {
     "value": 512,
     "label": "Saint-George",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 26,
+    "Y": 80
   },
   {
     "value": 513,
     "label": "Saint-Gingolph",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 67,
+    "Y": 66
   },
   {
     "value": 514,
     "label": "Saint-Imier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 80,
+    "Y": 154
   },
   {
     "value": 515,
     "label": "Saint-Légier-La Chiésaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 73,
+    "Y": 75
   },
   {
     "value": 516,
     "label": "Saint-Léonard",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 115,
+    "Y": 51
   },
   {
     "value": 517,
     "label": "Saint-Livres",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 35,
+    "Y": 79
   },
   {
     "value": 518,
     "label": "Saint-Martin (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 72,
+    "Y": 88
   },
   {
     "value": 519,
     "label": "Saint-Martin (VS)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 118,
+    "Y": 39
   },
   {
     "value": 520,
     "label": "Saint-Maurice",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 82,
+    "Y": 43
   },
   {
     "value": 521,
     "label": "Saint-Prex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 41,
+    "Y": 76
   },
   {
     "value": 522,
     "label": "Salvan",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 82,
+    "Y": 34
   },
   {
     "value": 523,
     "label": "Satigny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 7,
+    "Y": 48
   },
   {
     "value": 524,
     "label": "Saubraz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 31,
+    "Y": 80
   },
   {
     "value": 525,
     "label": "Sauge",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 102,
+    "Y": 152
   },
   {
     "value": 526,
     "label": "Saulcy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 94,
+    "Y": 167
   },
   {
     "value": 527,
     "label": "Saules (BE)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 100,
+    "Y": 161
   },
   {
     "value": 528,
     "label": "Savigny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 63,
+    "Y": 84
   },
   {
     "value": 529,
     "label": "Saxon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 96,
+    "Y": 38
   },
   {
     "value": 530,
     "label": "Seehof",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 123,
+    "Y": 167
   },
   {
     "value": 531,
     "label": "Sembrancher",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 94,
+    "Y": 29
   },
   {
     "value": 532,
     "label": "Semsales",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 77,
+    "Y": 88
   },
   {
     "value": 533,
     "label": "Senarclens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 43,
+    "Y": 90
   },
   {
     "value": 534,
     "label": "Sergey",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 44,
+    "Y": 106
   },
   {
     "value": 535,
     "label": "Servion",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 63,
+    "Y": 86
   },
   {
     "value": 536,
     "label": "Sierre",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 118,
+    "Y": 51
   },
   {
     "value": 537,
     "label": "Signy-Avenex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 21,
+    "Y": 66
   },
   {
     "value": 538,
     "label": "Sion",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 109,
+    "Y": 46
   },
   {
     "value": 539,
     "label": "Siviriez",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 75,
+    "Y": 95
   },
   {
     "value": 540,
     "label": "Sonceboz-Sombeval",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 96,
+    "Y": 155
   },
   {
     "value": 541,
     "label": "Sonvilier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 147
   },
   {
     "value": 542,
     "label": "Soral",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 8,
+    "Y": 39
   },
   {
     "value": 543,
     "label": "Sorens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 97
   },
   {
     "value": 544,
     "label": "Sorvilier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 106,
+    "Y": 160
   },
   {
     "value": 545,
     "label": "Soubey",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 168
   },
   {
     "value": 546,
     "label": "Soyhières",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 111,
+    "Y": 177
   },
   {
     "value": 547,
     "label": "Suchy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 52,
+    "Y": 103
   },
   {
     "value": 548,
     "label": "Sullens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 49,
+    "Y": 89
   },
   {
     "value": 549,
     "label": "Surpierre",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 104
   },
   {
     "value": 550,
     "label": "Suscévaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 50,
+    "Y": 108
   },
   {
     "value": 551,
     "label": "Syens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 65,
+    "Y": 94
   },
   {
     "value": 552,
     "label": "Tafers",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 99,
+    "Y": 113
   },
   {
     "value": 553,
     "label": "Tannay",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 19,
+    "Y": 57
   },
   {
     "value": 554,
     "label": "Tartegnin",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 30,
+    "Y": 75
   },
   {
     "value": 555,
     "label": "Täuffelen",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 98,
+    "Y": 142
   },
   {
     "value": 556,
     "label": "Tavannes",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 94,
+    "Y": 158
   },
   {
     "value": 557,
     "label": "Tévenon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 56,
+    "Y": 117
   },
   {
     "value": 558,
     "label": "Thônex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 21,
+    "Y": 46
   },
   {
     "value": 559,
     "label": "Tolochenaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 42,
+    "Y": 79
   },
   {
     "value": 560,
     "label": "Torny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 108
   },
   {
     "value": 561,
     "label": "Tramelan",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 89,
+    "Y": 158
   },
   {
     "value": 562,
     "label": "Trélex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 21,
+    "Y": 69
   },
   {
     "value": 563,
     "label": "Trey",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 77,
+    "Y": 108
   },
   {
     "value": 564,
     "label": "Treycovagnes",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 53,
+    "Y": 109
   },
   {
     "value": 565,
     "label": "Treyvaux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 93,
+    "Y": 103
   },
   {
     "value": 566,
     "label": "Trient",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 82,
+    "Y": 29
   },
   {
     "value": 567,
     "label": "Troinex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 16,
+    "Y": 41
   },
   {
     "value": 568,
     "label": "Troistorrents",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 49
   },
   {
     "value": 569,
     "label": "Twann-Tüscherz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 95,
+    "Y": 144
   },
   {
     "value": 570,
     "label": "Ursins",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 57,
+    "Y": 104
   },
   {
     "value": 571,
     "label": "Ursy",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 93
   },
   {
     "value": 572,
     "label": "Valangin",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 76,
+    "Y": 135
   },
   {
     "value": 573,
     "label": "Valbirse",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 105,
+    "Y": 160
   },
   {
     "value": 574,
     "label": "Valbroye",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 75,
+    "Y": 103
   },
   {
     "value": 575,
     "label": "Val-de-Ruz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 74,
+    "Y": 137
   },
   {
     "value": 576,
     "label": "Val-de-Travers",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 52,
+    "Y": 124
   },
   {
     "value": 577,
     "label": "Val-dIlliez",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 72,
+    "Y": 46
   },
   {
     "value": 578,
     "label": "Valeyres-sous-Montagny",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 53,
+    "Y": 111
   },
   {
     "value": 579,
     "label": "Valeyres-sous-Rances",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 46,
+    "Y": 106
   },
   {
     "value": 580,
     "label": "Valeyres-sous-Ursins",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 56,
+    "Y": 106
   },
   {
     "value": 581,
     "label": "Vallon",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 121
   },
   {
     "value": 582,
     "label": "Vallorbe",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 35,
+    "Y": 102
   },
   {
     "value": 583,
     "label": "Val Terbi",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 121,
+    "Y": 173
   },
   {
     "value": 584,
     "label": "Vandoeuvres",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 21,
+    "Y": 48
   },
   {
     "value": 585,
     "label": "Vaulion",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 36,
+    "Y": 99
   },
   {
     "value": 586,
     "label": "Vaulruz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 82,
+    "Y": 92
   },
   {
     "value": 587,
     "label": "Vaumarcus",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 64,
+    "Y": 120
   },
   {
     "value": 588,
     "label": "Vaux-sur-Morges",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 41,
+    "Y": 82
   },
   {
     "value": 589,
     "label": "Vellerat",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 111,
+    "Y": 169
   },
   {
     "value": 590,
     "label": "Vendlincourt",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 94,
+    "Y": 184
   },
   {
     "value": 591,
     "label": "Venthône",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 123,
+    "Y": 56
   },
   {
     "value": 592,
     "label": "Vernay",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 73,
+    "Y": 119
   },
   {
     "value": 593,
     "label": "Vernayaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 85,
+    "Y": 37
   },
   {
     "value": 594,
     "label": "Vernier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 13,
+    "Y": 45
   },
   {
     "value": 595,
     "label": "Vérossaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 81,
+    "Y": 46
   },
   {
     "value": 596,
     "label": "Versoix",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 18,
+    "Y": 54
   },
   {
     "value": 597,
     "label": "Vétroz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 104,
+    "Y": 47
   },
   {
     "value": 598,
     "label": "Vevey",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 71,
+    "Y": 73
   },
   {
     "value": 599,
     "label": "Vex",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 112,
+    "Y": 43
   },
   {
     "value": 600,
     "label": "Veyras",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 124,
+    "Y": 56
   },
   {
     "value": 601,
     "label": "Veyrier",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 17,
+    "Y": 42
   },
   {
     "value": 602,
     "label": "Veysonnaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 108,
+    "Y": 44
   },
   {
     "value": 603,
     "label": "Veytaux",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 77,
+    "Y": 69
   },
   {
     "value": 604,
     "label": "Vich",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 25,
+    "Y": 71
   },
   {
     "value": 605,
     "label": "Villarepos",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 88,
+    "Y": 121
   },
   {
     "value": 606,
     "label": "Villarsel-sur-Marly",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 96,
+    "Y": 107
   },
   {
     "value": 607,
     "label": "Villars-Epeney",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 59,
+    "Y": 109
   },
   {
     "value": 608,
     "label": "Villars-le-Comte",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 67,
+    "Y": 101
   },
   {
     "value": 609,
     "label": "Villars-le-Terroir",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 55,
+    "Y": 96
   },
   {
     "value": 610,
     "label": "Villars-Sainte-Croix",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 49,
+    "Y": 86
   },
   {
     "value": 611,
     "label": "Villars-sous-Yens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 38,
+    "Y": 80
   },
   {
     "value": 612,
     "label": "Villars-sur-Glâne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 110
   },
   {
     "value": 613,
     "label": "Villarzel",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 77,
+    "Y": 104
   },
   {
     "value": 614,
     "label": "Villaz-Saint-Pierre",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 102
   },
   {
     "value": 615,
     "label": "Villeneuve (FR)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 72,
+    "Y": 105
   },
   {
     "value": 616,
     "label": "Villeneuve (VD)",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 77,
+    "Y": 66
   },
   {
     "value": 617,
     "label": "Villeret",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 151
   },
   {
     "value": 618,
     "label": "Villorsonnens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 82,
+    "Y": 103
   },
   {
     "value": 619,
     "label": "Vinzel",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 27,
+    "Y": 73
   },
   {
     "value": 620,
     "label": "Vionnaz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 73,
+    "Y": 57
   },
   {
     "value": 621,
     "label": "Vollèges",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 90,
+    "Y": 32
   },
   {
     "value": 622,
     "label": "Vouvry",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 72,
+    "Y": 60
   },
   {
     "value": 623,
     "label": "Vuadens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 91
   },
   {
     "value": 624,
     "label": "Vuarrens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 56,
+    "Y": 99
   },
   {
     "value": 625,
     "label": "Vucherens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 65,
+    "Y": 92
   },
   {
     "value": 626,
     "label": "Vufflens-la-Ville",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 47,
+    "Y": 87
   },
   {
     "value": 627,
     "label": "Vufflens-le-Château",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 42,
+    "Y": 81
   },
   {
     "value": 628,
     "label": "Vuissens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 65,
+    "Y": 105
   },
   {
     "value": 629,
     "label": "Vuisternens-devant-Romont",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 97
   },
   {
     "value": 630,
     "label": "Vuisternens-en-Ogoz",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 87,
+    "Y": 101
   },
   {
     "value": 631,
     "label": "Vuiteboeuf",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 48,
+    "Y": 112
   },
   {
     "value": 632,
     "label": "Vulliens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 67,
+    "Y": 92
   },
   {
     "value": 633,
     "label": "Vullierens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 43,
+    "Y": 87
   },
   {
     "value": 634,
     "label": "Vully-les-Lacs",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 84,
+    "Y": 125
   },
   {
     "value": 635,
     "label": "Wallenried",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 91,
+    "Y": 120
   },
   {
     "value": 636,
     "label": "Yens",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 38,
+    "Y": 80
   },
   {
     "value": 637,
     "label": "Yverdon-les-Bains",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 55,
+    "Y": 106
   },
   {
     "value": 638,
     "label": "Yvonand",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 63,
+    "Y": 111
   },
   {
     "value": 639,
     "label": "Yvorne",
-    "group": "Communes francophones"
+    "group": "Communes francophones",
+    "X": 79,
+    "Y": 59
+  },
+  {
+    "value": null
   }
 ]
