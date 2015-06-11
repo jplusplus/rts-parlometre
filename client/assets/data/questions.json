@@ -1,43 +1,49 @@
 [
   {
-    "label": "Ne pas aller à l'école ou en cours se résume en un seul verbe. Lequel?",
+    "label": "8 X 10 =",
+    "id": 6,
     "answers": [
-      "cougner",
-      "biquer",
-      "courber",
-      "gatter"
+      "huitante",
+      "octante",
+      "quatre-vingts"
     ]
   },
   {
-    "label": "Un train régional, c'est:",
+    "label": "Quelqu'un de bête, c'est:",
+    "id": 31,
     "answers": [
-      "Un traclet",
-      "Un régio",
-      "Un RER",
-      "Un omnibus",
-      "Le dur"
+      "Un bobet",
+      "Un boeuf",
+      "Un niolu",
+      "Un tocson",
+      "Un topiot",
+      "Un toyet",
+      "Un dadet"
     ]
   },
   {
-    "label": "Qui dirige votre commune",
+    "label": "L'ustensile servant à travailler le jardin qui se trouve juste à côté de la petite pelle porte le nom de:",
+    "id": 39,
     "answers": [
-      "Le président",
-      "Le syndic",
-      "Le maire"
+      "Capion",
+      "Sarcloir",
+      "Piochette",
+      "Piochard"
     ]
   },
   {
-    "label": "Que fais cette maison?",
-    "image": "https://d4z6dx8qrln4r.cloudfront.net/image-5502068864f6f-default.jpeg",
+    "label": "Lorsque quelqu'un crie, il pousse:",
+    "id": 18,
     "answers": [
-      "Elle beutche",
-      "Elle flambe",
-      "Elle crame",
-      "Elle chupie"
+      "Une braillée",
+      "Une beuglée",
+      "Une bramée",
+      "Une bouellée"
     ]
   },
   {
     "label": "Que dites-vous le lendemain d'une fête trop arrosée?",
+    "id": 25,
     "answers": [
       "Je me suis ramassé une chiée/une cuite",
       "J'étais sur Soleure",
@@ -47,15 +53,63 @@
     ]
   },
   {
-    "label": "Qui dirige votre commune",
+    "label": "Une grande quantité, c'est:",
+    "id": 29,
     "answers": [
-      "Le président",
-      "Le syndic",
-      "Le maire"
+      "Une raclée",
+      "Une tapée",
+      "Une chiée",
+      "Une pétée",
+      "Une peufnée",
+      "Une (é)péclée",
+      "Une brontsée",
+      "Une masse",
+      "Une craquée"
+    ]
+  },
+  {
+    "label": "Alors qu'une petite quantité c'est plutôt:",
+    "id": 30,
+    "answers": [
+      "Un matson",
+      "Une bricole",
+      "Un chouia",
+      "Une tchette"
+    ]
+  },
+  {
+    "label": "S'incliner sans faire opposition se dit aussi:",
+    "id": 38,
+    "answers": [
+      "Baster",
+      "Bâcher"
+    ]
+  },
+  {
+    "label": "Un morceau de tissu servant à rapiécer un vêtement, c'est un:",
+    "id": 35,
+    "answers": [
+      "Blètse",
+      "Biètse",
+      "Plètse",
+      "Tacon"
+    ]
+  },
+  {
+    "label": "Qu'est-ce que c'est?",
+    "id": 16,
+    "image": "https://d4z6dx8qrln4r.cloudfront.net/image-5501987c6f895-default.jpeg",
+    "answers": [
+      "Une canette",
+      "Une chope",
+      "Une cinq",
+      "Une grande bière",
+      "Une pinte"
     ]
   },
   {
     "label": "Ne pas aller à l'école ou en cours se résume en un seul verbe. Lequel?",
+    "id": 7,
     "answers": [
       "cougner",
       "biquer",
@@ -66,137 +120,150 @@
     ]
   },
   {
-    "label": "Un train régional, c'est:",
+    "label": "Tricher à l'école, c'est:",
+    "id": 13,
     "answers": [
-      "Un traclet",
-      "Un régio",
-      "Un RER",
-      "Un omnibus",
-      "Le dur"
+      "pougner",
+      "frouiller",
+      "mascogner",
+      "copier",
+      "(s)chinder"
     ]
   },
   {
-    "label": "Qui dirige votre commune",
+    "label": "Chez vous, l'instituteur, c'est:",
+    "id": 21,
     "answers": [
-      "Le président",
-      "Le syndic",
-      "Le maire"
+      "Le régent",
+      "Le prof",
+      "Le raitet",
+      "L enseignant",
+      "Le maître"
     ]
   },
   {
-    "label": "Ne pas aller à l'école ou en cours se résume en un seul verbe. Lequel?",
+    "label": "L'extrémité d'un bout de pain, c'est:",
+    "id": 27,
     "answers": [
-      "cougner",
-      "biquer",
-      "courber",
-      "gatter",
-      "sécher",
-      "schwentzer"
+      "Le croûtion",
+      "Le crotchon",
+      "Le croûton",
+      "Le trognon"
     ]
   },
   {
-    "label": "Un train régional, c'est:",
+    "label": "Dans les salles de bains, on retrouve généralement:",
+    "id": 24,
     "answers": [
-      "Un traclet",
-      "Un régio",
-      "Un RER",
-      "Un omnibus",
-      "Le dur"
+      "Des planelles",
+      "Des catelles",
+      "Des carrons"
     ]
   },
   {
-    "label": "Qui dirige votre commune",
+    "label": "Quand le froid vous transperce, vous dites qu'il fait:",
+    "id": 20,
     "answers": [
-      "Le président",
-      "Le syndic",
-      "Le maire"
+      "Une cramine",
+      "Une fricasse",
+      "Un cru"
     ]
   },
   {
-    "label": "Ne pas aller à l'école ou en cours se résume en un seul verbe. Lequel?",
+    "label": "Une personne trop bavarde n'arrête pas de:",
+    "id": 22,
     "answers": [
-      "cougner",
-      "biquer",
-      "courber",
-      "gatter",
-      "sécher",
-      "schwentzer"
+      "Baboler",
+      "Barjaquer",
+      "Batoiller",
+      "Baidger",
+      "Causer"
     ]
   },
   {
-    "label": "Un train régional, c'est:",
+    "label": "Prendre un repas se dit aussi:",
+    "id": 10,
     "answers": [
-      "Un traclet",
-      "Un régio",
-      "Un RER",
-      "Un omnibus",
-      "Le dur"
+      "ruper",
+      "casser la croûte",
+      "manger un morceau",
+      "grailler",
+      "luncher",
+      "bouffer"
     ]
   },
   {
-    "label": "Qui dirige votre commune",
+    "label": "Comment s'appelle cet objet que l'on donne à un jeune enfant pour le calmer?",
+    "image": "https://d4z6dx8qrln4r.cloudfront.net/image-5502a212e7d8f-default.jpeg",
+    "id": 28,
     "answers": [
-      "Le président",
-      "Le syndic",
-      "Le maire"
+      "Une tétine",
+      "Une lolette",
+      "Un nouki"
     ]
   },
   {
-    "label": "Ne pas aller à l'école ou en cours se résume en un seul verbe. Lequel?",
+    "label": "Frapper la joue d'une personne avec la paume de sa main, c'est la:",
+    "id": 33,
     "answers": [
-      "cougner",
-      "biquer",
-      "courber",
-      "gatter",
-      "sécher",
-      "schwentzer"
+      "Gniaffer",
+      "Gifler",
+      "Baffer"
     ]
   },
   {
-    "label": "Un train régional, c'est:",
+    "label": "Comment appelez-vous un ensemble d'objets disparates?",
+    "id": 34,
     "answers": [
-      "Un traclet",
-      "Un régio",
-      "Un RER",
-      "Un omnibus",
-      "Le dur"
+      "Un cheni",
+      "Un commerce",
+      "Des babioles",
+      "Un petchi"
     ]
   },
   {
-    "label": "Qui dirige votre commune",
+    "label": "Se livrer à une occupation mal définie, c'est:",
+    "id": 37,
     "answers": [
-      "Le président",
-      "Le syndic",
-      "Le maire"
+      "Foutimasser",
+      "Pétouiller",
+      "Faratzer",
+      "Glander"
     ]
   },
   {
-    "label": "Ne pas aller à l'école ou en cours se résume en un seul verbe. Lequel?",
+    "label": "Que fait cette maison?",
+    "id": 23,
+    "image": "https://d4z6dx8qrln4r.cloudfront.net/image-5502068864f6f-default.jpeg",
     "answers": [
-      "cougner",
-      "biquer",
-      "courber",
-      "gatter",
-      "sécher",
-      "schwentzer"
+      "Elle beutche",
+      "Elle flambe",
+      "Elle crame",
+      "Elle chupie"
     ]
   },
   {
-    "label": "Un train régional, c'est:",
+    "label": "Vous aurez quelques minutes de retard à un rendez-vous. Que dites-vous à votre interlocuteur?",
+    "id": 32,
     "answers": [
-      "Un traclet",
-      "Un régio",
-      "Un RER",
-      "Un omnibus",
-      "Le dur"
+      "J'arrive incessamment sous peu",
+      "J'arrive immédiatement",
+      "J'arrive tout soudain",
+      "J'arrive dans 5",
+      "J'arrive"
     ]
   },
   {
-    "label": "Qui dirige votre commune",
+    "label": "Comment dites-vous \"au revoir\" à un proche?",
+    "id": 12,
     "answers": [
-      "Le président",
-      "Le syndic",
-      "Le maire"
+      "Tschüss",
+      "Adieu",
+      "Adjeu",
+      "Tout de bon",
+      "Tchô",
+      "Tchô bonne",
+      "Ciao"
     ]
   }
 ]
