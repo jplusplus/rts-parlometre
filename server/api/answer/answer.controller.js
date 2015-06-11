@@ -1,6 +1,9 @@
 'use strict';
 
+var sqldb    = require('../../sqldb');
 var response = require("../response");
+
+var Answer = sqldb.Answer;
 
 // Returns a fake 10 000 route's hash
 var fake = function() {
@@ -19,3 +22,17 @@ exports.hash = function(req, res) {
   response.setCachedRequest(req, pixels, 24 * 60 * 60 * 10000);
   res.send(pixels);
 };
+
+// Save a user answer
+exports.create = function(req, res) {
+  // User's answer
+  var answer = req.body;
+  // The ip will be saved as a hash to detect flooding
+  answer.token = req.ip;
+  // Create the
+  Answer.build(answer).save()
+    .then(function(answer) {
+      res.json(answer);
+    })
+    .catch(response.validationError(res));
+}
