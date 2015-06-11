@@ -9,7 +9,7 @@ angular
       # Cantons list
       $scope.cantons = _.reduce result.cantons, (result, value, code)->
         # Create a new object for each canton
-        result.push code: code, value: value, label: code
+        result.push code: code, value: value, label: code, demonym: code
         result
       # We have to transform the cantons object to a an array
       , []

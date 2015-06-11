@@ -14,11 +14,11 @@
           .col-sm-6
             p
               | Vous parlez à&nbsp;
-              strong 90% comme un Fribourgeois
-              | ,&nbsp;
-              strong 60% comme un Valasien&nbsp;
-              | et seulement&nbsp;
-              strong 10% comme un genevois.
+              span(ng-repeat="canton in cantons | orderBy:'-value' | limitTo:3")
+                span(ng-if="!$first && !$last") ,&nbsp;
+                span(ng-if="$last") &nbsp;et&nbsp;
+                strong {{ canton.value * 100 }}% comme un {{ canton.demonym }}
+              | .
 
             ul.list-unstyled.main__outro__container__yours__body__cantons
               li.main__outro__container__yours__body__cantons__item(ng-repeat="canton in cantons | orderBy:'-value' | limitTo:3")
