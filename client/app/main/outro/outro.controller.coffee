@@ -2,10 +2,10 @@
 
 angular
   .module 'rtsDialectsApp'
-    .controller 'MainOutroCtrl', ($scope, $stateParams, $state, $fb, $twt, app, result)->
+    .controller 'MainOutroCtrl', ($scope, $stateParams, $state, app, Sharer, result)->
       $scope.hash = $stateParams.hash
-      # Get the absolute URL of the current state
-      $scope.url = $state.href 'main.outro', { hash: $scope.hash }, { absolute: yes }
+      # Create a sharer object
+      $scope.sharer = new Sharer result
       # Cantons list
       $scope.cantons = _.reduce result.cantons, (result, value, code)->
         # Create a new object for each canton
@@ -19,17 +19,3 @@ angular
       $scope.barStyle = (value)->
         width: (value * 100) + '%'
         background: color(value)
-      # Facebook's sharing
-      $scope.fb = ->
-        $fb.feed
-          name: "Le Parlomètre romand - RTS"
-          description: "Je parle français comme les habitants de Fribourg"
-          link: $scope.url
-          picture: app.sharing.url + "/assets/images/rts-red.jpg"
-      # Twitter's sharing
-      $scope.tw = ->
-        $twt.intent 'tweet',
-          text: 'Je parle français comme les habitants de Fribourg'
-          url: $scope.url
-
-

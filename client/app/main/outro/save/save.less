@@ -1,0 +1,39 @@
+.main__outro__save {
+  position:relative;
+
+  &__feedback {
+    z-index:100;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:white;
+    text-align: center;
+    padding:50px 0;
+    #gradient > .vertical( fade(@brand-success, 90), fade(darken(@brand-success, 30), 90) );
+    .transition(0.6s);
+
+    &.ng-hide {
+      opacity:0;
+    }
+
+    &__share {
+      margin-top:40px;
+      font-size: 2em;
+      a {
+        cursor: pointer;
+        color:white;
+      }
+    }
+
+    &__close,
+    &__close:hover {
+      margin-top:80px;
+      color:white;
+      background: transparent;
+      border: 1px solid white;
+    }
+
+  }
+}

@@ -2,25 +2,30 @@
 
 angular
   .module 'rtsDialectsApp'
-    .controller 'MainOutroSaveCtrl', ($scope, $state, $timeout, $modalInstance, Questions, cities)->
+    .controller 'MainOutroSaveCtrl', ($scope, $timeout, $modalInstance, Questions, Sharer, result)->
+      # Create a sharer object
+      $scope.sharer = new Sharer result
       # Transform the note into a human readable information
-      $scope.translateNote = (note)->
-        switch note
+      $scope.translateSatisfaction = (satisfaction)->
+        switch satisfaction
           when 0
             'Pas du tout'
           when 10
             'Trés satisfait'
           else
-            note
-      # Cities list available in the scope to build the select list
-      $scope.cities = cities
+            satisfaction
+      # Status of the user interaction (pending, saved, etc)
+      $scope.status = -> Questions.status
       # Close the popup
       $scope.close = $modalInstance.close
       # Saving function
-      # @NOT_INMPLEMENTED
-      $scope.save = $scope.close
+      $scope.save = ->
+        # Pick values from the scope
+        answer = _.pick $scope, ['email', 'placeOfResidence', 'placeOfBirth', 'satisfaction']
+        # Save the answer
+        Questions.save answer
       # Default form's values
-      $scope.note = 5
+      $scope.satisfaction = 5
       # rzSlider doesn't like to be rendered into an hidden element
       $timeout ->
         # For

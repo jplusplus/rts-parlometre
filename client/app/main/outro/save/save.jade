@@ -1,4 +1,4 @@
-form.main__outro__save(ng-submit="save()")
+form.main__outro__save(ng-submit="save()", ng-class="{ 'main__outro__save--saved': status() === 'saved' }")
   .modal-header
     button(type="button", class="close", aria-label="Close", ng-click="close()")
       span(aria-hidden="true") &times;
@@ -10,21 +10,40 @@ form.main__outro__save(ng-submit="save()")
 
     .form-group
       label Dans quelle commune résidez-vous ?
-      input.form-control(ng-model="leave", type="text", placeholder="Genève, étranger, etc")
+      input.form-control(ng-model="placeOfResidence", type="text", placeholder="Genève, étranger, etc")
 
     .form-group
       label Dans quelle commune êtes-vous né(e) ?
-      input.form-control(ng-model="born", type="text", placeholder="Genève, étranger, etc")
+      input.form-control(ng-model="placeOfBirth", type="text", placeholder="Genève, étranger, etc")
 
 
     .form-group
-      label Rebnseignez votre e-mail
+      label Renseignez votre e-mail
       input.form-control(type="email", ng-model="email", id="input-email")
 
     .form-group
       label Êtes-vous satisfait de la qualité de cette application ?
-      rzslider(rz-slider-floor="0", rz-slider-ceil="10", rz-slider-model="note", rz-slider-translate="translateNote")
+      rzslider(rz-slider-floor="0", rz-slider-ceil="10", rz-slider-model="satisfaction", rz-slider-translate="translateSatisfaction")
 
   .modal-footer.text-right
-    button.btn.btn-primary(type="submit")
+    button.btn.btn-primary(type="submit", ng-disabled="status() === 'saved'")
       | Valider
+
+  .main__outro__save__feedback.text-center(ng-show="status() === 'saved'")
+    h2 Merci !
+    .main__outro__save__feedback__share
+      p.lead Partagez votre carte
+      .row
+        .col-xs-1.col-xs-offset-4
+          a(ng-click="sharer.tw()")
+            i.fa.fa-twitter
+        .col-xs-2
+          a(ng-click="sharer.fb()")
+            i.fa.fa-facebook
+        .col-xs-1.
+          <a tooltip="Copier l'URL" tooltip-append-to-body="true" ui-zeroclip zeroclip-text="{{ sharer.url }}">
+            <i class="fa fa-clipboard"></i>
+          </a>
+
+    button.btn.main__outro__save__feedback__close(ng-click="close()") Fermer
+

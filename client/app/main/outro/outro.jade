@@ -33,17 +33,17 @@
     .main__outro__container__footer
       .row
         .col-sm-3.main__outro__container__footer__label
-          | Partager votre carte&nbsp;:
+          | Partagez votre carte&nbsp;:
         .col-sm-3.col-xs-6.main__outro__container__footer__share
           .row.text-center
             .col-xs-4
-              a(ng-click="tw()")
+              a(ng-click="sharer.tw()")
                 i.fa.fa-twitter
             .col-xs-4
-              a(ng-click="fb()")
+              a(ng-click="sharer.fb()")
                 i.fa.fa-facebook
             .col-xs-4.
-              <a tooltip="Copier l'URL" tooltip-append-to-body="true" ui-zeroclip zeroclip-text="{{ url }}">
+              <a tooltip="Copier l'URL" tooltip-append-to-body="true" ui-zeroclip zeroclip-text="{{ sharer.url }}">
                 <i class="fa fa-clipboard"></i>
               </a>
         .col-sm-6.col-xs-6.main__outro__container__footer__save
