@@ -17,7 +17,7 @@
               span(ng-repeat="canton in cantons | orderBy:'-value' | limitTo:3")
                 span(ng-if="!$first && !$last") ,&nbsp;
                 span(ng-if="$last") &nbsp;et&nbsp;
-                strong {{ canton.value * 100 }}% comme un {{ canton.demonym }}
+                strong {{ canton.value * 100 | number:0 }}% comme un {{ canton.demonym }}
               | .
 
             ul.list-unstyled.main__outro__container__yours__body__cantons
