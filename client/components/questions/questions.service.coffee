@@ -8,7 +8,7 @@ angular
           @promise = $http
             .get 'assets/data/questions.json'
             .then (res)=>
-              @questions = res.data.slice(0, 21)
+              @questions = res.data
               # Watch for chanhes on the question index
               $rootScope.$watch @index, =>
                 # Change the status to 'pending' when the survey is done
@@ -36,10 +36,10 @@ angular
         # start at 1, not 0. So we add 1 to every answer's index.
         hash: => _.map( _.pluck(@values(), "userAnswer"), (a)-> if isNaN(a) then '' else a + 1 ).join("")
         # True when the user answer all the questions
-        done: => @hash().length >= 4 # is @values().length
+        done: => @hash().length is @values().length
         # Returns the last index without answer
         index: => _.findIndex @values(), (q)-> not q.userAnswer?
         # Get results for a given questions hash
         result: (hash)=>
           # Build a uniq path to the json describing the result
-          $http.get(app.cdn.location + 'hashes/' + hash + '.json', cache: yes).then (d)=> d.data
+          $http.get(app.generator.location + '?hash=' + hash, cache: yes).then (d)=> d.data
