@@ -19,8 +19,8 @@ angular
         # Facebook's sharing
         fb: =>
           $fb.feed
-            name: "Le Parlomètre romand - RTS"
-            description: "Je parle français comme les " + @cantons[0].demonym + "."
+            name: "Je parle français comme les " + @cantons[0].demonym + "."
+            description: "Le Parlomètre romand - RTS"
             link: @url
             picture: app.sharing.url + "/assets/images/rts-red.jpg"
         # Twitter's sharing
