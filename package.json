@@ -15,10 +15,11 @@
     "memory-cache": "^0.1.2",
     "method-override": "~1.0.0",
     "morgan": "~1.0.0",
+    "mysql": "^2.5.4",
+    "prerender-node": "^1.2.1",
     "sequelize": "^2.0.0-rc2",
     "serve-favicon": "~2.0.1",
-    "sqlite3": "~3.0.2",
-    "mysql": "^2.5.4"
+    "sqlite3": "~3.0.2"
   },
   "devDependencies": {
     "grunt": "~0.4.4",
