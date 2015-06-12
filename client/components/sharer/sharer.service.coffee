@@ -20,13 +20,13 @@ angular
         fb: =>
           $fb.feed
             name: "Le Parlomètre romand - RTS"
-            description: "Je parle français comme les " + @cantons[0].demonym
+            description: "Je parle français comme les " + @cantons[0].demonym + "."
             link: @url
             picture: app.sharing.url + "/assets/images/rts-red.jpg"
         # Twitter's sharing
         tw: =>
           $twt.intent 'tweet',
-            text: "Je parle français comme les " + @cantons[0].demonym
+            text: "Je parle français comme les " + @cantons[0].demonym + "."
             url: @url
 
 
