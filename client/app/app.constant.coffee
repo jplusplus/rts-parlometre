@@ -11,6 +11,28 @@ angular
         # location: '//rts-parlometre-generator.herokuapp.com/custom/distance/'
         # Cached endpoint (using Varnish)
         location: '//rts-parlometre-generator-herokuapp-com.global.ssl.fastly.net/custom/distance/'
+      cantons:
+        BE:
+          demonym: 'Bernois'
+          label: 'Berne'
+        FR:
+          demonym: 'Fribourgeois'
+          label: 'Fribourg'
+        GE:
+          demonym: 'Genevois'
+          label: 'Genève'
+        JU:
+          demonym: 'Jurassiens'
+          label: 'Jura'
+        NE:
+          demonym: 'Neuchâtelois'
+          label: 'Neuchâtel'
+        VD:
+          demonym: 'Vaudois'
+          label: 'Vaud'
+        VS:
+          demonym: 'Valaisans'
+          label: 'Valais'
       map:
         pixels: 10000
         domain: [0, 15]
