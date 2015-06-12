@@ -36,7 +36,7 @@ angular.module 'rtsDialectsApp'
       # No answer, no map
       return null unless question.userAnswer?
       # Use a CDN to retreive the image
-      app.cdn.location + 'questions/' + question.id + '-' + (question.userAnswer + 1) + '.png'
+      app.cdn.location + 'answers/' + question.id + '-' + (question.userAnswer + 1) + '.png'
     # Move to final screen if the user didn't answer yet
     $scope.$on '$stateChangeSuccess', (event, next)->
       # Avoid answering twice
