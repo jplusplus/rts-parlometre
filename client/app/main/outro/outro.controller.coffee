@@ -2,7 +2,7 @@
 
 angular
   .module 'rtsDialectsApp'
-    .controller 'MainOutroCtrl', ($scope, $stateParams, $state, app, Sharer, result)->
+    .controller 'MainOutroCtrl', ($scope, $stateParams, $state, app, Sharer, Cities, result)->
       $scope.hash = $stateParams.hash
       # Create a sharer object
       $scope.sharer = new Sharer result

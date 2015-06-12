@@ -8,4 +8,5 @@ angular.module 'rtsDialectsApp'
     templateUrl: 'app/main/main.html'
     controller: 'MainCtrl'
     resolve:
+      cities: (Cities)-> Cities.get()
       questions: (Questions)-> Questions.get()

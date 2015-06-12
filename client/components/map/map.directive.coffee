@@ -1,9 +1,9 @@
 angular
   .module('rtsDialectsApp')
-    .directive 'map', (r, app, Questions)->
+    .directive 'map', (r, app, Questions, Cities)->
       restrict: 'AE'
       replace: no
-      template: '<div class="map"><img class="map__img" /></div>'
+      templateUrl: 'components/map/map.jade'
       scope:
         hash: "="
       link: (scope, element, $attrs) ->
@@ -24,6 +24,8 @@ angular
               context.fillStyle = do color(value).hex
               # Draw on the canvas
               context.fillRect x, y, square, square
+          # To draw cities, we need to expend there code to properties
+          scope.cities = _.map result.communes, Cities.find
           # Copy to the image tag
           element.find(".map__img").attr 'src', canvas[0].toDataURL()
         # Create color scales
