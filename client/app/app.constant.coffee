@@ -5,7 +5,7 @@ angular
         appid: '662081797256496'
         url: 'http://parlometre.ch'
       cdn:
-        location: '//s3-eu-west-1.amazonaws.com/parlometre/hashes/'
+        location: '//s3-eu-west-1.amazonaws.com/parlometre/'
       map:
         pixels: 10000
         domain: [0, 15]

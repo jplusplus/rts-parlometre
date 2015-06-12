@@ -42,4 +42,4 @@ angular
         # Get results for a given questions hash
         result: (hash)=>
           # Build a uniq path to the json describing the result
-          $http.get(app.cdn.location + hash + '.json', cache: yes).then (d)=> d.data
+          $http.get(app.cdn.location + 'hashes/' + hash + '.json', cache: yes).then (d)=> d.data

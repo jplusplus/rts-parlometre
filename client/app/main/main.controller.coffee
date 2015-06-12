@@ -1,7 +1,7 @@
 'use strict'
 
 angular.module 'rtsDialectsApp'
-  .controller 'MainCtrl', ($scope, $state, $document, $window, Questions)->
+  .controller 'MainCtrl', ($scope, $state, $document, $window, app, Questions)->
     # Returns the last index without answer
     $scope.index = do Questions.index
     # List of questions
@@ -31,6 +31,12 @@ angular.module 'rtsDialectsApp'
        'main__container__questions__item__form--previous': i < $scope.index,
        'main__container__questions__item__form--next': i > $scope.index,
        'main__container__questions__item__form--hidden': i > $scope.index or i < $scope.index - 1
+    # Returns the map for a given question/answer pair
+    $scope.answerMap = (question)->
+      # No answer, no map
+      return null unless question.userAnswer?
+      # Use a CDN to retreive the image
+      app.cdn.location + 'questions/' + question.id + '-' + (question.userAnswer + 1) + '.png'
     # Move to final screen if the user didn't answer yet
     $scope.$on '$stateChangeSuccess', (event, next)->
       # Avoid answering twice
