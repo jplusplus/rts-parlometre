@@ -3,7 +3,7 @@ angular
     .directive 'map', (r, app, Questions, Cities)->
       restrict: 'AE'
       replace: no
-      templateUrl: 'components/map/map.jade'
+      templateUrl: 'components/map/map.html'
       scope:
         hash: "="
       link: (scope, element, $attrs) ->

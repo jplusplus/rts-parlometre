@@ -1,8 +1,5 @@
-<div class="map">
-  <img class="map__img" />
-  <div class="map__cities">
-    <div class="map__cities__item" ng-repeat="city in cities | limitTo:1" ng-style="{ top: (city.y/196)*100 + '%',  left: (city.x/196)*100 + '%' }">
-      <div  class="map__cities__item__label">{{ city.label }}</div>
-    </div>
-  </div>
-</div>
+.map
+  img.map__img
+  .map__cities
+    .map__cities__item(ng-repeat='city in cities | limitTo:1', ng-style="{ top: (city.y/196)*100 + '%',  left: (city.x/196)*100 + '%' }")
+      .map__cities__item__label {{ city.label }}
