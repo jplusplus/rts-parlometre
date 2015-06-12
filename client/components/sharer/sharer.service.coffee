@@ -16,17 +16,18 @@ angular
           @cantons = _.sortBy @cantons, (c)-> -1 * c.value
         # Return an object
         url: @url
+        title: => "Je parle français comme les " + @cantons[0].demonym
         # Facebook's sharing
         fb: =>
           $fb.feed
-            name: "Je parle français comme les " + @cantons[0].demonym + "."
+            name: do @title
             description: "Le Parlomètre romand - RTS"
             link: @url
             picture: app.sharing.url + "/assets/images/rts-red.jpg"
         # Twitter's sharing
         tw: =>
           $twt.intent 'tweet',
-            text: "Je parle français comme les " + @cantons[0].demonym + "."
+            text: do @title
             url: @url
 
 

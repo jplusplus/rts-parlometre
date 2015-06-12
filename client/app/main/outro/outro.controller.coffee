@@ -6,6 +6,8 @@ angular
       $scope.hash = $stateParams.hash
       # Create a sharer object
       $scope.sharer = new Sharer result
+      # Change page title for facebook sharing
+      $("meta[property='og:title'], meta[name='twitter:title']").attr "content", do $scope.sharer.title
       # Cantons list
       $scope.cantons = _.reduce result.cantons, (result, value, code)->
         # Create a new object for each canton
@@ -19,3 +21,7 @@ angular
       $scope.barStyle = (value)->
         width: (value * 100) + '%'
         background: color(value)
+      # Restore page title
+      $scope.$on '$stateChangeStart', (ev, next)->
+        # Change page title
+        $("title").html $("title").attr("ng-bind")
