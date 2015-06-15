@@ -7,7 +7,7 @@ angular.module 'rtsDialectsApp'
     url: '/save'
     onEnter: ($state, $modal, Questions, result)->
       # Leave the modal if the user never done the form
-      return $state.go('main.outro') unless do Questions.done
+      # return $state.go('main.outro') unless do Questions.done
       # Function to go back to the parent state
       goBack = -> $state.go 'main.outro'
       # Create a modal

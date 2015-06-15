@@ -29,7 +29,8 @@ div(ng-include="'components/sidebar/sidebar.html'")
                 .main__container__questions__item__form__label
                   | {{ question.label }}
                   .main__container__questions__item__form__label__user-answer(ng-show="$index < index && showPrevious()")
-                    | {{ question.answers[question.userAnswer] }}
+                    i.fa.fa-check-circle-o.fa-fw
+                    | &nbsp;{{ question.answers[question.userAnswer] }}
 
                 .main__container__questions__item__form__image(ng-show="$index >= index && question.image  && showPrevious()")
                   img(ng-src="{{ question.image }}", width="100%")
@@ -45,7 +46,8 @@ div(ng-include="'components/sidebar/sidebar.html'")
 
                 .main__container__questions__item__form__next(ng-hide="$index < index && showPrevious()")
                   button.btn.btn-primary.btn-lg(ng-disabled="!questionForm.$valid", type="submit")
-                    | Suivant
+                    | Suivant&nbsp;
+                    i.fa.fa-angle-right.fa-fw
 
 
 

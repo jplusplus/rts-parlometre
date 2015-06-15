@@ -2,9 +2,11 @@ angular
   .module 'rtsDialectsApp'
     .service 'Sharer', ($state, $fb, $twt, app)->
       class Sharer
-        constructor: (@result)->
+        constructor: (@result={})->
           # Get the absolute URL of the current state
           @url = $state.href 'main.outro', { hash: $state.params.hash }, { absolute: yes }
+          # Check that we have cantons
+          @result.cantons = @result.cantons ? []
           # Cantons list
           @cantons = _.reduce @result.cantons, (result, value, code)->
             # Create a new object for each canton
@@ -16,7 +18,11 @@ angular
           @cantons = _.sortBy @cantons, (c)-> -1 * c.value
         # Return an object
         url: @url
-        title: => "Je parle français comme les " + @cantons[0].demonym
+        title: =>
+          if @cantons.length
+            "Je parle français comme les " + @cantons[0].demonym
+          else
+            "Où sont les Suisses qui parlent comme vous ?"
         # Facebook's sharing
         fb: =>
           $fb.feed
