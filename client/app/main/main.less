@@ -65,7 +65,6 @@
           background:@brand-primary;
           color: contrast(@brand-primary);
           .transition(~"opacity 0.6s, margin 0.6s");
-          .box-shadow(0 0 5px 0 fade(black, 5));
 
           &--hidden {
             opacity:0;
@@ -145,6 +144,11 @@
             text-align: center;
             margin:auto;
             display: block;
+            border:1px solid @gray-darker;
+
+            img:-moz-loading {
+              visibility: hidden;
+            }
           }
 
           &__answers {
