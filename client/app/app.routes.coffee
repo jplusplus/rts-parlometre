@@ -7,7 +7,6 @@ angular
     .run ($rootScope, $state, $window, $location, Progress, Sidebar)->
       # Redirect to login if route requires auth and you're not logged in
       $rootScope.$on '$stateChangeStart', (event, next) ->
-
         # Go to the top of the window
         # $("body").scrollTo 0, 400
         # Close the sidebar
