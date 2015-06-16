@@ -7,9 +7,6 @@
     .main__outro__container__yours
       h3.main__outro__container__yours__title Votre carte
       .main__outro__container__yours__body
-        p.text-muted
-          | Retrouver grâce à la carte ci-dessous de quels endroit vient votre dialecte.
-          | Les 3 villes ayant le plus de similarités avec vos réponses sont affichées.
         .row
           .col-sm-6
             p
@@ -27,8 +24,12 @@
                 .main__outro__container__yours__body__cantons__item__bar
                   .main__outro__container__yours__body__cantons__item__bar__content(ng-style="barStyle(canton.value)")
 
-          .col-sm-6.main__outro__container__yours__body__map
-            map(hash="hash")
+          .col-sm-6
+            p.text-muted
+              | Retrouvez grâce à la carte ci-dessous de quel endroit vient votre dialecte.
+              | La ville ayant le plus de similarités avec vos réponses est affichée.
+            .main__outro__container__yours__body__map
+              map(hash="hash")
 
     .main__outro__container__footer
       .row
