@@ -124,7 +124,7 @@
               padding:10px 20px;
               color: @gray-darker;
               font-weight: bold;
-              background: fade( contrast(@gray-darker), 20);
+              text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
             }
           }
 
@@ -148,6 +148,44 @@
 
             img:-moz-loading {
               visibility: hidden;
+            }
+
+            &__legend {
+              font-size:0.9em;
+              padding:10px;
+              color:@text-color;
+
+              &__scale {
+                display: block;
+                height:25px;
+                color:@gray-light;
+                border:solid 1px @gray-light;
+
+                background: #0080ff; /* Old browsers */
+                background: -moz-linear-gradient(left, #0080ff 0%, #7fbfff 25%, #fff2cc 50%, #ffa6a6 75%, #ff4d4d 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0080ff), color-stop(25%,#7fbfff), color-stop(50%,#fff2cc), color-stop(75%,#ffa6a6), color-stop(100%,#ff4d4d)); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(left, #0080ff 0%,#7fbfff 25%,#fff2cc 50%,#ffa6a6 75%,#ff4d4d 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(left, #0080ff 0%,#7fbfff 25%,#fff2cc 50%,#ffa6a6 75%,#ff4d4d 100%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(left, #0080ff 0%,#7fbfff 25%,#fff2cc 50%,#ffa6a6 75%,#ff4d4d 100%); /* IE10+ */
+                background: linear-gradient(to right, #0080ff 0%,#7fbfff 25%,#fff2cc 50%,#ffa6a6 75%,#ff4d4d 100%); /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0080ff', endColorstr='#ff4d4d',GradientType=1 ); /* IE6-9 */
+
+                position:relative;
+
+                &:before {
+                  content:"Moins similaire";
+                  position: absolute;
+                  left:0;
+                  bottom:100%;
+                }
+
+                &:after {
+                  content:"Similaires";
+                  position: absolute;
+                  right:0;
+                  bottom:100%;
+                }
+              }
             }
           }
 
