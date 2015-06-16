@@ -20,7 +20,7 @@ angular
       # Style of a city's bar
       $scope.barStyle = (value)->
         width: (value * 100) + '%'
-        background: color(value)
+        background: color(value*15)
       # Restore page title
       $scope.$on '$stateChangeStart', (ev, next)->
         # Change page title
