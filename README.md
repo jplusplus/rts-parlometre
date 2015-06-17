@@ -1,4 +1,4 @@
-# RTS Dialects
+# RTS Parlometre
 
 For production setup, see the [full installation guide](//github.com/jplusplus/rts-parlometre/blob/master/INSTALLATION.md).
 
