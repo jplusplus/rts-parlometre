@@ -41,7 +41,7 @@ form.main__outro__save(ng-submit="save()", ng-class="{ 'main__outro__save--saved
           a(ng-click="sharer.fb()")
             i.fa.fa-facebook
         .col-xs-1.
-          <a tooltip="Copier l'URL" tooltip-append-to-body="true" ui-zeroclip zeroclip-text="{{ sharer.url }}">
+          <a title="Copier l'URL"  ui-zeroclip zeroclip-text="{{ sharer.url }}">
             <i class="fa fa-clipboard"></i>
           </a>
 
