@@ -30,7 +30,7 @@ angular.module 'rtsDialectsApp'
     $scope.questionClass = (i)->
        'main__container__questions__item__form--previous': i < $scope.index,
        'main__container__questions__item__form--next': i > $scope.index,
-       'main__container__questions__item__form--hidden': i > $scope.index or i < $scope.index - 1
+       'main__container__questions__item__form--visible': i is $scope.index or i is $scope.index - 1
     # Returns the map for a given question/answer pair
     $scope.answerMap = (question)->
       # No answer, no map

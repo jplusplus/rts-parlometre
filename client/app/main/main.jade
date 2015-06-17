@@ -14,8 +14,8 @@ div(ng-include="'components/sidebar/sidebar.html'")
 
       .main__container__wrapper
         .main__container__questions
-          .main__container__questions__item(ng-repeat="question in ::questions", id="question-{{$index}}")
-            form.main__container__questions__item__form(
+          .main__container__questions__item(ng-repeat="question in ::questions", id="question-{{ :: $index}}")
+            form.main__container__questions__item__form.main__container__questions__item__form--next(
               name="questionForm",
               ng-submit="save(question, userAnswer)",
               ng-class="questionClass($index)")
@@ -23,11 +23,11 @@ div(ng-include="'components/sidebar/sidebar.html'")
                 input(type="hidden", required, ng-model="userAnswer")
                 .main__container__questions__item__form__position
                   div(ng-hide="$index < index && showPrevious()")
-                    | Question {{ $index + 1 }}/{{ questions.length }}
+                    | Question {{ :: $index + 1 }}/{{ :: questions.length }}
                   div(ng-show="$index < index && showPrevious()")
                     | Votre dernière réponse
                 .main__container__questions__item__form__label
-                  | {{ question.label }}
+                  | {{ :: question.label }}
                 .main__container__questions__item__form__user-answer(ng-show="$index < index && showPrevious()")
                   i.fa.fa-check-circle-o.fa-fw
                   | &nbsp;{{ question.answers[question.userAnswer] }}
@@ -36,10 +36,10 @@ div(ng-include="'components/sidebar/sidebar.html'")
                   img(ng-src="{{ question.image }}", width="100%")
 
                 ul.list-unstyled.main__container__questions__item__form__answers(ng-hide="$index < index && showPrevious()")
-                  li.checkbox.main__container__questions__item__form__answers__choice(ng-repeat="answer in question.answers")
+                  li.checkbox.main__container__questions__item__form__answers__choice(ng-repeat="answer in ::question.answers")
                     label
                       input(type="radio", icheck, ng-model="$parent.userAnswer", ng-disabled="$parent.$index !== index", ng-value="$index")
-                      | &nbsp; {{ answer }}
+                      | &nbsp; {{ :: answer }}
 
                 .main__container__questions__item__form__map.slide(ng-show="$index < index && showPrevious()")
                   img(ng-src="{{  answerMap(question) }}", width="250", height="250")

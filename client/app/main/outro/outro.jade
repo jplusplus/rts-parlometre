@@ -11,18 +11,18 @@
           .col-sm-5
             p
               | Vous parlez à&nbsp;
-              span(ng-repeat="canton in cantons | orderBy:'-value' | limitTo:3")
+              span(ng-repeat="canton in :: cantons | orderBy:'-value' | limitTo:3")
                 span(ng-if="!$first && !$last") ,&nbsp;
                 span(ng-if="$last") &nbsp;et&nbsp;
-                strong {{ canton.value * 100 | number:0 }}% comme les&nbsp;{{ canton.demonym }}
+                strong {{ :: canton.value * 100 | number:0 }}% comme les&nbsp;{{ ::  canton.demonym }}
               | .
 
             ul.list-unstyled.main__outro__container__yours__body__cantons
-              li.main__outro__container__yours__body__cantons__item(ng-repeat="canton in cantons | orderBy:'-value' | limitTo:3")
+              li.main__outro__container__yours__body__cantons__item(ng-repeat="canton in :: cantons | orderBy:'-value' | limitTo:3")
                 h5.main__outro__container__yours__body__cantons__item__title
-                  | {{ canton.label }}
+                  | {{ :: canton.label }}
                 .main__outro__container__yours__body__cantons__item__bar
-                  .main__outro__container__yours__body__cantons__item__bar__content(ng-style="barStyle(canton.value)")
+                  .main__outro__container__yours__body__cantons__item__bar__content(ng-style=":: barStyle(canton.value)")
 
           .col-sm-7
             p.text-muted
@@ -44,7 +44,7 @@
               a(ng-click="sharer.fb()")
                 i.fa.fa-facebook
             .col-xs-4
-              <a title="Copier l'URL" ui-zeroclip zeroclip-text="{{ sharer.url }}">
+              <a title="Copier l'URL" ui-zeroclip zeroclip-text="{{ :: sharer.url }}">
                 <i class="fa fa-clipboard"></i>
               </a>
         .col-sm-6.col-xs-6.main__outro__container__footer__save
