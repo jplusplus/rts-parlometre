@@ -8,7 +8,7 @@
       h3.main__outro__container__yours__title Votre carte
       .main__outro__container__yours__body
         .row
-          .col-sm-6
+          .col-sm-5
             p
               | Vous parlez à&nbsp;
               span(ng-repeat="canton in cantons | orderBy:'-value' | limitTo:3")
@@ -24,7 +24,7 @@
                 .main__outro__container__yours__body__cantons__item__bar
                   .main__outro__container__yours__body__cantons__item__bar__content(ng-style="barStyle(canton.value)")
 
-          .col-sm-6
+          .col-sm-7
             p.text-muted
               | Retrouvez grâce à la carte ci-dessous de quel endroit vient votre dialecte.
               | La ville ayant le plus de similarités avec vos réponses est affichée.
