@@ -14,7 +14,7 @@ div(ng-include="'components/sidebar/sidebar.html'")
 
       .main__container__wrapper
         .main__container__questions
-          .main__container__questions__item(ng-repeat="question in questions", id="question-{{$index}}")
+          .main__container__questions__item(ng-repeat="question in ::questions", id="question-{{$index}}")
             form.main__container__questions__item__form(
               name="questionForm",
               ng-submit="save(question, userAnswer)",

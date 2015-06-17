@@ -43,13 +43,13 @@
             .col-xs-4
               a(ng-click="sharer.fb()")
                 i.fa.fa-facebook
-            .col-xs-4.
-              <a tooltip="Copier l'URL" tooltip-append-to-body="true" ui-zeroclip zeroclip-text="{{ sharer.url }}">
+            .col-xs-4
+              <a title="Copier l'URL" ui-zeroclip zeroclip-text="{{ sharer.url }}">
                 <i class="fa fa-clipboard"></i>
               </a>
         .col-sm-6.col-xs-6.main__outro__container__footer__save
-          a.btn.btn-block.btn-primary(ui-sref=".save", ng-show="!done()")
+          a.btn.btn-block.btn-primary(ui-sref=".save", ng-show="done()")
             | Aidez-nous à améliorer le Parlomètre
-          a.btn.btn-block.btn-primary(ui-sref="main", ng-hide="!done()")
+          a.btn.btn-block.btn-primary(ui-sref="main", ng-hide="done()")
             | Faire le test !
 
