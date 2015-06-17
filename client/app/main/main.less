@@ -195,6 +195,14 @@
             padding:20px 0;
             font-size:1.1em;
 
+            // This in order to prevent text selection when choosing a question
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+
             @media (max-width: @small-width) {
               font-size:1.3em;
 
