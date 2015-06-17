@@ -274,6 +274,35 @@ module.exports = function (grunt) {
         }
       }
     },
+    modernizr: {
+      dist: {
+        "devFile" : "node_modules/grunt-modernizr/lib/modernizr-dev.js",
+        // Path to save out the built file.
+        "outputFile" : ".tmp/assets/modernizr-custom.js",
+        // Based on default settings on http://modernizr.com/download/
+        "extra" : {
+            "shiv" : true,
+            "printshiv" : false,
+            "load" : true,
+            "mq" : false,
+            "cssclasses" : true
+        },
+        // Based on default settings on http://modernizr.com/download/
+        "extensibility" : {
+            "addtest" : false,
+            "prefixed" : false,
+            "teststyles" : false,
+            "testprops" : false,
+            "testallprops" : false,
+            "hasevents" : false,
+            "prefixes" : false,
+            "domprefixes" : false,
+            "cssclassprefix": ""
+        },
+        // By default, source is uglified before saving
+        "uglify" : true
+      }
+    },
 
     // Reads HTML for usemin blocks to enable smart builds that automatically
     // concat, minify and revision files. Creates configurations in memory so
@@ -395,7 +424,7 @@ module.exports = function (grunt) {
             'bower_components/**/*',
             'assets/images/{,*/}*.{webp,svg}',
             'assets/fonts/**/*',
-            'assets/**/*.json',
+            'assets/**/*.{json}',
             'index.html'
           ]
         }, {
@@ -403,6 +432,11 @@ module.exports = function (grunt) {
           cwd: '.tmp/images',
           dest: '<%= yeoman.dist %>/client/assets/images',
           src: ['generated/*']
+        }, {
+          expand: true,
+          cwd: '.tmp',
+          dest: '<%= yeoman.dist %>/client/',
+          src: ['assets/**/*.js']
         }, {
           expand: true,
           dest: '<%= yeoman.dist %>',
@@ -709,6 +743,7 @@ module.exports = function (grunt) {
         'env:all',
         'injector:less',
         'concurrent:server',
+        'modernizr',
         'injector',
         'wiredep',
         'autoprefixer',
@@ -721,6 +756,7 @@ module.exports = function (grunt) {
       'env:all',
       'injector:less',
       'concurrent:server',
+      'modernizr',
       'injector',
       'wiredep',
       'autoprefixer',
@@ -752,6 +788,7 @@ module.exports = function (grunt) {
         'env:all',
         'injector:less',
         'concurrent:test',
+        'modernizr',
         'injector',
         'autoprefixer',
         'karma'
@@ -777,6 +814,7 @@ module.exports = function (grunt) {
           'env:test',
           'injector:less',
           'concurrent:test',
+          'modernizr',
           'injector',
           'wiredep',
           'autoprefixer',
@@ -831,6 +869,7 @@ module.exports = function (grunt) {
     'clean:dist',
     'injector:less',
     'concurrent:dist',
+    'modernizr',
     'injector',
     'wiredep',
     'useminPrepare',
