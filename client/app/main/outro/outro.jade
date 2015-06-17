@@ -2,21 +2,20 @@
 
   .main__outro__container
     h2.main__container__title Le Parlomètre romand
-    p.lead.main__container__introduction
+    //-p.lead.main__container__introduction
       | Art party heirloom jean shorts Banksy, roof party PBR&amp;B taxidermy beard.
     .main__outro__container__yours
       h3.main__outro__container__yours__title Votre carte
       .main__outro__container__yours__body
-        .row
-          .col-sm-5
-            p
-              | Vous parlez à&nbsp;
-              span(ng-repeat="canton in :: cantons | orderBy:'-value' | limitTo:3")
-                span(ng-if="!$first && !$last") ,&nbsp;
-                span(ng-if="$last") &nbsp;et&nbsp;
-                strong {{ :: canton.value * 100 | number:0 }}% comme les&nbsp;{{ ::  canton.demonym }}
-              | .
+        p.text-muted
+          | Retrouvez grâce à la carte ci-dessous de quel endroit vient votre dialecte.
+          | La commune ayant le plus de similarités avec vos réponses est affichée.
+        .main__outro__container__yours__body__map
+          map(hash="hash")
 
+        .row
+
+          .col-sm-7
             ul.list-unstyled.main__outro__container__yours__body__cantons
               li.main__outro__container__yours__body__cantons__item(ng-repeat="canton in :: cantons | orderBy:'-value' | limitTo:3")
                 h5.main__outro__container__yours__body__cantons__item__title
@@ -24,12 +23,15 @@
                 .main__outro__container__yours__body__cantons__item__bar
                   .main__outro__container__yours__body__cantons__item__bar__content(ng-style=":: barStyle(canton.value)")
 
-          .col-sm-7
-            p.text-muted
-              | Retrouvez grâce à la carte ci-dessous de quel endroit vient votre dialecte.
-              | La commune ayant le plus de similarités avec vos réponses est affichée.
-            .main__outro__container__yours__body__map
-              map(hash="hash")
+          .col-sm-5
+            p.main__outro__container__yours__body__demonym.text-muted
+              | Vous parlez à&nbsp;
+              span(ng-repeat="canton in :: cantons | orderBy:'-value' | limitTo:3")
+                span(ng-if="!$first && !$last") ,&nbsp;
+                span(ng-if="$last") &nbsp;et&nbsp;
+                strong {{ :: canton.value * 100 | number:0 }}%
+                span &nbsp;comme les&nbsp;{{ ::  canton.demonym }}
+              | .
 
     .main__outro__container__footer
       .row
