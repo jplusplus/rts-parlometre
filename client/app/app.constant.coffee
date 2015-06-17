@@ -11,6 +11,7 @@ angular
         # location: '//rts-parlometre-generator.herokuapp.com/custom/distance/'
         # Cached endpoint (using Varnish)
         location: '//rts-parlometre-generator-herokuapp-com.global.ssl.fastly.net/custom/distance/'
+        proxy: '/api/answers/proxy/'
       cantons:
         BE:
           demonym: 'Bernois'

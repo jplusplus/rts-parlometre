@@ -7,6 +7,7 @@ var response   = require('../response');
 var router = express.Router();
 
 router.post('/', controller.create);
-router.get('/fake/', response.cachedRaw(), controller.hash);
+router.get('/fake', response.cachedRaw(), controller.hash);
+router.get('/proxy', controller.proxy);
 
 module.exports = router;

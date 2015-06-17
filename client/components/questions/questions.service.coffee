@@ -39,7 +39,10 @@ angular
         done: => @hash().length is @values().length
         # Returns the last index without answer
         index: => _.findIndex @values(), (q)-> not q.userAnswer?
+        # True if the browser supports CORS
+        allowCors: => 'withCredentials' of new XMLHttpRequest
         # Get results for a given questions hash
         result: (hash)=>
+          location = if do @allowCors then app.generator.location else app.generator.proxy
           # Build a uniq path to the json describing the result
-          $http.get(app.generator.location + '?hash=' + hash, cache: yes).then (d)=> d.data
+          $http.get(location + '?hash=' + hash, cache: yes).then (d)=> d.data

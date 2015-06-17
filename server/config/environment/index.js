@@ -24,6 +24,8 @@ var all = {
   secrets: {
     session: 'rts-dialects-secret'
   },
+  // API generating result JSON
+  resultsApi: 'http://rts-parlometre-generator-herokuapp-com.global.ssl.fastly.net/custom/distance/',
   // List of user roles
   userRoles: ['guest', 'user', 'admin'],
   // Use sqlite by default

@@ -1,6 +1,9 @@
 'use strict';
 
+var request = require('superagent');
+
 var sqldb    = require('../../sqldb');
+var config   = require('../../config/environment');
 var response = require("../response");
 
 var Answer = sqldb.Answer;
@@ -36,3 +39,13 @@ exports.create = function(req, res) {
     })
     .catch(response.validationError(res));
 }
+
+// Proxy to get the hash result (IE9 doesn't support CORS)
+exports.proxy = function(req, res) {
+  var hash = req.query.hash;
+  var url = config.resultsApi;
+
+  request.get(url).query({ hash: hash }).end(function(err, result) {
+    return res.json(result.body);
+  });
+};
