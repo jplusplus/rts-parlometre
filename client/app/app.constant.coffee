@@ -3,7 +3,7 @@ angular
     .constant 'app',
       sharing:
         appid: '662081797256496'
-        url: 'http://parlometre.ch'
+        url: 'http://www.parlometre.ch'
       cdn:
         location: '//s3-eu-west-1.amazonaws.com/parlometre/'
       generator:

@@ -29,7 +29,7 @@ angular
             name: do @title
             description: "Le Parlomètre romand - RTS"
             link: @url
-            picture: app.sharing.url + "/assets/images/fb.png"
+            picture: app.sharing.url + "/assets/images/share.png"
         # Twitter's sharing
         tw: =>
           $twt.intent 'tweet',
