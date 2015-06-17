@@ -76,6 +76,7 @@
             @media (min-width: (@small-width + 1px) ){
               background:white;
               margin-left:45%;
+              border:1px solid @gray-darker;
             }
 
             @media (max-width: @small-width) {
@@ -116,16 +117,15 @@
             position: relative;
             .transition(0.6s);
 
-            &__user-answer {
-              position: absolute;
-              top:100%;
-              left:0;
-              width:100%;
-              padding:10px 20px;
-              color: @gray-darker;
-              font-weight: bold;
-              text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
-            }
+          }
+
+          &__user-answer {
+            padding:10px 20px;
+            padding-bottom:0;
+            margin:0;
+            color: @gray-darker;
+            font-weight: bold;
+            text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
           }
 
           &__image {
@@ -144,7 +144,6 @@
             text-align: center;
             margin:auto;
             display: block;
-            border:1px solid @gray-darker;
 
             img:-moz-loading {
               visibility: hidden;

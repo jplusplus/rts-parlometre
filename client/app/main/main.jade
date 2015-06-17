@@ -28,9 +28,9 @@ div(ng-include="'components/sidebar/sidebar.html'")
                     | Votre denière réponse
                 .main__container__questions__item__form__label
                   | {{ question.label }}
-                  .main__container__questions__item__form__label__user-answer(ng-show="$index < index && showPrevious()")
-                    i.fa.fa-check-circle-o.fa-fw
-                    | &nbsp;{{ question.answers[question.userAnswer] }}
+                .main__container__questions__item__form__user-answer(ng-show="$index < index && showPrevious()")
+                  i.fa.fa-check-circle-o.fa-fw
+                  | &nbsp;{{ question.answers[question.userAnswer] }}
 
                 .main__container__questions__item__form__image(ng-show="$index >= index && question.image")
                   img(ng-src="{{ question.image }}", width="100%")
