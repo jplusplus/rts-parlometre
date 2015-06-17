@@ -276,6 +276,11 @@ module.exports = function (grunt) {
     },
     modernizr: {
       dist: {
+        "files": {
+          "src":  [
+            '.tmp/{app,components}/**/*.{js,css}'
+          ]
+        },
         "devFile" : "node_modules/grunt-modernizr/lib/modernizr-dev.js",
         // Path to save out the built file.
         "outputFile" : ".tmp/assets/modernizr-custom.js",

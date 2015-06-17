@@ -3,14 +3,21 @@
   position: fixed;
   left:0;
   bottom:0;
-  right: 0;
   top:0;
   width: 300px;
   background: @gray-dark;
   .transition(0.4s);
 
   &--is-collapsed {
-    .translate(-100%, 0);
+
+    .csstransforms3d & {
+      .translate(-100%, 0);
+    }
+
+    .no-csstransforms3d & {
+      left: -300px;
+    }
+
   }
 
   &__toggler {
