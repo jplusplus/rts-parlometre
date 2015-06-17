@@ -33,7 +33,7 @@ div(ng-include="'components/sidebar/sidebar.html'")
                   | &nbsp;{{ question.answers[question.userAnswer] }}
 
                 .main__container__questions__item__form__image(ng-show="$index >= index && question.image")
-                  img(ng-src="{{ question.image }}", width="100%")
+                  img(ng-src="{{ :: question.image }}", width="100%")
 
                 ul.list-unstyled.main__container__questions__item__form__answers(ng-hide="$index < index && showPrevious()")
                   li.checkbox.main__container__questions__item__form__answers__choice(ng-repeat="answer in ::question.answers")
@@ -42,7 +42,7 @@ div(ng-include="'components/sidebar/sidebar.html'")
                       | &nbsp; {{ :: answer }}
 
                 .main__container__questions__item__form__map.slide(ng-show="$index < index && showPrevious()")
-                  img(ng-src="{{  answerMap(question) }}", width="250", height="250")
+                  img(ng-src="{{  answerMap(question) }}", width="300", height="300")
                   .main__container__questions__item__form__map__legend
                     .main__container__questions__item__form__map__legend__title.sr-only Légende
                     .main__container__questions__item__form__map__legend__scale
