@@ -15,7 +15,11 @@
   }
 
   &__logo {
-    height: @header-height - 30px;
+    line-height: 63px;
+
+    img {
+      height: @header-height - 30px;
+    }
   }
 
   @media (max-width: @screen-sm-max) {
@@ -28,7 +32,12 @@
     }
 
     &__logo {
-      height: @header-height-sm - 20px;
+
+      line-height: @header-height-sm - 7px;
+
+      img {
+        height: @header-height-sm - 20px;
+      }
     }
   }
 
