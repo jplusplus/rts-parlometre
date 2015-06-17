@@ -24,7 +24,7 @@
   {
     "label": "L'ustensile servant à travailler le jardin qui se trouve juste à côté de la petite pelle porte le nom de:",
     "id": 39,
-    "image": "https://d4z6dx8qrln4r.cloudfront.net/image-55029c3821f71-default.jpeg",
+    "image": "//d4z6dx8qrln4r.cloudfront.net/image-55029c3821f71-default.jpeg",
     "answers": [
       "Capion",
       "Sarcloir",
@@ -99,7 +99,7 @@
   {
     "label": "Qu'est-ce que c'est?",
     "id": 16,
-    "image": "https://d4z6dx8qrln4r.cloudfront.net/image-5501987c6f895-default.jpeg",
+    "image": "//d4z6dx8qrln4r.cloudfront.net/image-5501987c6f895-default.jpeg",
     "answers": [
       "Une canette",
       "Une chope",
@@ -195,7 +195,7 @@
   },
   {
     "label": "Comment s'appelle cet objet que l'on donne à un jeune enfant pour le calmer?",
-    "image": "https://d4z6dx8qrln4r.cloudfront.net/image-5502a212e7d8f-default.jpeg",
+    "image": "//d4z6dx8qrln4r.cloudfront.net/image-5502a212e7d8f-default.jpeg",
     "id": 28,
     "answers": [
       "Une tétine",
@@ -235,7 +235,7 @@
   {
     "label": "Que fait cette maison?",
     "id": 23,
-    "image": "https://d4z6dx8qrln4r.cloudfront.net/image-5502068864f6f-default.jpeg",
+    "image": "//d4z6dx8qrln4r.cloudfront.net/image-5502068864f6f-default.jpeg",
     "answers": [
       "Elle beutche",
       "Elle flambe",
