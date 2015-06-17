@@ -27,7 +27,7 @@
           .col-sm-7
             p.text-muted
               | Retrouvez grâce à la carte ci-dessous de quel endroit vient votre dialecte.
-              | La ville ayant le plus de similarités avec vos réponses est affichée.
+              | La commune ayant le plus de similarités avec vos réponses est affichée.
             .main__outro__container__yours__body__map
               map(hash="hash")
 
@@ -48,8 +48,8 @@
                 <i class="fa fa-clipboard"></i>
               </a>
         .col-sm-6.col-xs-6.main__outro__container__footer__save
-          a.btn.btn-block.btn-primary(ui-sref=".save", ng-show="done()")
-            | Enregistrer mes résultats
-          a.btn.btn-block.btn-primary(ui-sref="main", ng-hide="done()")
+          a.btn.btn-block.btn-primary(ui-sref=".save", ng-show="!done()")
+            | Aidez-nous à améliorer le Parlomètre
+          a.btn.btn-block.btn-primary(ui-sref="main", ng-hide="!done()")
             | Faire le test !
 

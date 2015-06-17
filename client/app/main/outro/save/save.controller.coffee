@@ -11,7 +11,7 @@ angular
           when 0
             'Pas du tout'
           when 10
-            'Trés satisfait'
+            'Très satisfait'
           else
             satisfaction
       # Status of the user interaction (pending, saved, etc)

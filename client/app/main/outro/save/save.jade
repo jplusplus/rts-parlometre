@@ -5,8 +5,8 @@ form.main__outro__save(ng-submit="save()", ng-class="{ 'main__outro__save--saved
     h3 Enregistrer mes résultats
   .modal-body
     p.lead
-      | Vous pouvez nous aider à améliorer l'application et affiner les résultars
-      | en enregistrant vos  réponses et en répondant aux questions suivantes&nbsp;:
+      | Vous pouvez nous aider à affiner les résultats du
+      | Parlomètre romand en répondant aux questions suivantes.
 
     .form-group
       label Dans quelle commune résidez-vous ?
@@ -18,11 +18,11 @@ form.main__outro__save(ng-submit="save()", ng-class="{ 'main__outro__save--saved
 
 
     .form-group
-      label Renseignez votre e-mail
+      label Veuillez indiquer votre adresse électronique
       input.form-control(type="email", ng-model="email", id="input-email")
 
     .form-group
-      label Êtes-vous satisfait de la qualité de cette application ?
+      label Êtes-vous satisfait de la qualité du Parlomètre romand ?
       rzslider(rz-slider-floor="0", rz-slider-ceil="10", rz-slider-model="satisfaction", rz-slider-translate="translateSatisfaction")
 
   .modal-footer.text-right
