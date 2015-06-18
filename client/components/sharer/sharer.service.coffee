@@ -33,7 +33,6 @@ angular
         # Twitter's sharing
         tw: =>
           $twt.intent 'tweet',
-            text: do @title
-            url: @url
+            text: [do @title, @url, "#parlometre"].join ' '
 
 
