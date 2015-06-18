@@ -444,11 +444,6 @@ module.exports = function (grunt) {
           src: ['assets/**/*.js']
         }, {
           expand: true,
-          cwd: '.tmp',
-          src: 'assets/modernizr-custom.js',
-          dest: '<%= yeoman.dist %>/client/'
-        }, {
-          expand: true,
           dest: '<%= yeoman.dist %>',
           src: [
             'package.json',
