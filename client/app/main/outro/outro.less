@@ -21,9 +21,16 @@
         padding:15px;
 
         &__map {
+          min-height:500px;
+
+          @media (max-width: @screen-sm-max) {
+            min-height:auto;
+          }
+
           .map {
             max-width:500px;
             margin:20px auto;
+            background: white;
           }
         }
 
