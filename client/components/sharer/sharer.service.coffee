@@ -27,7 +27,7 @@ angular
         fb: =>
           $fb.feed
             name: do @title
-            description: "Le Parlomètre romand - RTS"
+            description: "Dites-nous comment vous parlez et nous vous dirons d'où vous venez !"
             link: @url
             picture: app.sharing.url + "/assets/images/share.png"
         # Twitter's sharing
