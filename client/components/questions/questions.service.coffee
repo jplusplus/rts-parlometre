@@ -45,4 +45,16 @@ angular
         result: (hash)=>
           location = if do @allowCors then app.generator.location else app.generator.proxy
           # Build a uniq path to the json describing the result
-          $http.get(location + '?hash=' + hash, cache: yes).then (d)=> d.data
+          $http.get(location + '?hash=' + hash, cache: yes).then (d)=>
+            result = d.data
+            # Cantons list
+            result.cantons = _.reduce result.cantons, (result, value, code)->
+              # Create a new object for each canton
+              result.push angular.extend({ code: code, value: value }, app.cantons[code])
+              result
+            # We have to transform the cantons object to a an array
+            , []
+            # Sort by value
+            result.cantons = _.sortBy result.cantons, (c)-> -1 * c.value
+            # Returns everything
+            result

@@ -8,14 +8,7 @@ angular
           # Check that we have cantons
           @result.cantons = @result.cantons ? []
           # Cantons list
-          @cantons = _.reduce @result.cantons, (result, value, code)->
-            # Create a new object for each canton
-            result.push angular.extend({ code: code, value: value }, app.cantons[code])
-            result
-          # We have to transform the cantons object to a an array
-          , []
-          # Sort canton list by value
-          @cantons = _.sortBy @cantons, (c)-> -1 * c.value
+          @cantons = @result.cantons
         # Return an object
         url: @url
         title: =>
