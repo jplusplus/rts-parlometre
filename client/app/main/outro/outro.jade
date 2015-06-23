@@ -4,8 +4,6 @@
     h2.main__container__title Le Parlomètre romand
     p.lead.main__container__introduction
       | Dites-nous comment vous parlez et nous vous dirons d'où vous venez !
-    //-p.lead.main__container__introduction
-      | Art party heirloom jean shorts Banksy, roof party PBR&amp;B taxidermy beard.
     .main__outro__container__yours
       h3.main__outro__container__yours__title Votre carte
       .main__outro__container__yours__body
@@ -16,7 +14,6 @@
           map(hash="hash")
 
         .row
-
           .col-sm-7
             ul.list-unstyled.main__outro__container__yours__body__cantons
               li.main__outro__container__yours__body__cantons__item(ng-repeat="canton in :: cantons | orderBy:'-value' | limitTo:3")
@@ -27,13 +24,10 @@
 
           .col-sm-5
             p.main__outro__container__yours__body__demonym.text-muted
-              | Vous parlez à&nbsp;
-              span(ng-repeat="canton in :: cantons | orderBy:'-value' | limitTo:3")
-                span(ng-if="!$first && !$last") ,&nbsp;
-                span(ng-if="$last") &nbsp;et&nbsp;
-                strong {{ :: canton.value * 100 | number:0 }}%
-                span &nbsp;comme les&nbsp;{{ ::  canton.demonym }}
-              | .
+              | Je parle &nbsp;
+              strong
+                | {{ :: cantons[0].adjective }} à {{ :: cantons[0].value * 100 | number:0 }}%
+              | &nbsp;et un peu {{ :: cantons[1].adjective }} et {{ :: cantons[2].adjective }}.
 
     .main__outro__container__footer
       .row
@@ -48,9 +42,10 @@
               a(ng-click="sharer.fb()")
                 i.fa.fa-facebook
             .col-xs-4.
-              <a title="Copier l'URL" ui-zeroclip zeroclip-text="{{ :: sharer.url }}">
+              <a zeroclip-copied="copied = true" ui-zeroclip zeroclip-text="{{ :: sharer.url }}">
                 <i class="fa fa-clipboard"></i>
               </a>
+              {{ copied | json }}
         .col-sm-6.col-xs-6.main__outro__container__footer__save
           a.btn.btn-block.btn-primary(ui-sref=".save", ng-show="done()")
             | Aidez-nous à améliorer le Parlomètre

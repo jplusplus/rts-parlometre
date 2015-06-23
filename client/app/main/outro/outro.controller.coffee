@@ -15,6 +15,8 @@ angular
         result
       # We have to transform the cantons object to a an array
       , []
+      # Sort by value
+      $scope.cantons = _.sortBy $scope.cantons, (c)-> -1 * c.value
       # Color scaling to colorize city's bar
       color = chroma.scale(app.map.colors).domain app.map.domain
       # Style of a city's bar

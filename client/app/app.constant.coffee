@@ -16,24 +16,31 @@ angular
         BE:
           demonym: 'Bernois'
           label: 'Berne'
+          adjective: 'jurasso-bernois'
         FR:
           demonym: 'Fribourgeois'
           label: 'Fribourg'
+          adjective: 'fribourgeois'
         GE:
           demonym: 'Genevois'
           label: 'Genève'
+          adjective: 'genevois'
         JU:
           demonym: 'Jurassiens'
           label: 'Jura'
+          adjective: 'jurassien'
         NE:
           demonym: 'Neuchâtelois'
           label: 'Neuchâtel'
+          adjective: 'neuchâtelois'
         VD:
           demonym: 'Vaudois'
           label: 'Vaud'
+          adjective: 'vaudois'
         VS:
           demonym: 'Valaisans'
           label: 'Valais'
+          adjective: 'valaisan'
       map:
         pixels: 10000
         domain: [0, 15]
