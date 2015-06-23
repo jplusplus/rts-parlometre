@@ -160,8 +160,8 @@
     "value": 22,
     "label": "Avully",
     "group": "Communes francophones",
-    "x": 5,
-    "y": 42
+    "x": 7,
+    "y": 47
   },
   {
     "value": 23,
@@ -210,7 +210,7 @@
     "label": "Basse-Allaine",
     "group": "Communes francophones",
     "x": 85,
-    "y": 187
+    "y": 180
   },
   {
     "value": 30,
@@ -392,14 +392,14 @@
     "label": "Boncourt",
     "group": "Communes francophones",
     "x": 84,
-    "y": 189
+    "y": 182
   },
   {
     "value": 56,
     "label": "Bonfol",
     "group": "Communes francophones",
     "x": 94,
-    "y": 187
+    "y": 182
   },
   {
     "value": 57,
@@ -440,7 +440,7 @@
     "value": 62,
     "label": "Boudry",
     "group": "Communes francophones",
-    "x": 72,
+    "x": 70,
     "y": 128
   },
   {
@@ -469,7 +469,7 @@
     "label": "Bourg-Saint-Pierre",
     "group": "Communes francophones",
     "x": 98,
-    "y": 17
+    "y": 19
   },
   {
     "value": 67,
@@ -706,8 +706,8 @@
     "value": 100,
     "label": "Chancy",
     "group": "Communes francophones",
-    "x": 3,
-    "y": 40
+    "x": 7,
+    "y": 45
   },
   {
     "value": 101,
@@ -903,7 +903,7 @@
     "label": "Chexbres",
     "group": "Communes francophones",
     "x": 65,
-    "y": 76
+    "y": 79
   },
   {
     "value": 129,
@@ -952,7 +952,7 @@
     "label": "Coeuve",
     "group": "Communes francophones",
     "x": 90,
-    "y": 184
+    "y": 182
   },
   {
     "value": 136,
@@ -1001,7 +1001,7 @@
     "label": "Confignon",
     "group": "Communes francophones",
     "x": 11,
-    "y": 43
+    "y": 45
   },
   {
     "value": 143,
@@ -1021,8 +1021,8 @@
     "value": 145,
     "label": "Corban",
     "group": "Communes francophones",
-    "x": 119,
-    "y": 172
+    "x": 115,
+    "y": 167
   },
   {
     "value": 146,
@@ -1365,7 +1365,7 @@
     "label": "Damphreux",
     "group": "Communes francophones",
     "x": 91,
-    "y": 187
+    "y": 182
   },
   {
     "value": 195,
@@ -1644,7 +1644,7 @@
     "value": 234,
     "label": "Féchy",
     "group": "Communes francophones",
-    "x": 34,
+    "x": 31,
     "y": 76
   },
   {
@@ -2079,7 +2079,7 @@
     "label": "La Baroche",
     "group": "Communes francophones",
     "x": 99,
-    "y": 178
+    "y": 175
   },
   {
     "value": 296,
@@ -2090,7 +2090,7 @@
   },
   {
     "value": 297,
-    "label": "LAbergement",
+    "label": "L'Abergement",
     "group": "Communes francophones",
     "x": 43,
     "y": 107
@@ -2135,7 +2135,7 @@
     "label": "Laconnex",
     "group": "Communes francophones",
     "x": 8,
-    "y": 40
+    "y": 48
   },
   {
     "value": 304,
@@ -2170,7 +2170,7 @@
     "label": "Lancy",
     "group": "Communes francophones",
     "x": 14,
-    "y": 43
+    "y": 47
   },
   {
     "value": 309,
@@ -2233,14 +2233,14 @@
     "label": "La Tour-de-Peilz",
     "group": "Communes francophones",
     "x": 71,
-    "y": 73
+    "y": 75
   },
   {
     "value": 318,
     "label": "Lausanne",
     "group": "Communes francophones",
     "x": 54,
-    "y": 80
+    "y": 82
   },
   {
     "value": 319,
@@ -2520,7 +2520,7 @@
     "label": "Lugnez",
     "group": "Communes francophones",
     "x": 90,
-    "y": 187
+    "y": 182
   },
   {
     "value": 359,
@@ -2652,15 +2652,15 @@
     "value": 377,
     "label": "Mervelier",
     "group": "Communes francophones",
-    "x": 121,
-    "y": 172
+    "x": 117,
+    "y": 168
   },
   {
     "value": 378,
     "label": "Mettembert",
     "group": "Communes francophones",
-    "x": 107,
-    "y": 178
+    "x": 103,
+    "y": 175
   },
   {
     "value": 379,
@@ -2855,7 +2855,7 @@
     "value": 406,
     "label": "Morges",
     "group": "Communes francophones",
-    "x": 44,
+    "x": 41,
     "y": 79
   },
   {
@@ -2883,8 +2883,8 @@
     "value": 410,
     "label": "Movelier",
     "group": "Communes francophones",
-    "x": 107,
-    "y": 179
+    "x": 104,
+    "y": 175
   },
   {
     "value": 411,
@@ -2982,7 +2982,7 @@
     "label": "Onex",
     "group": "Communes francophones",
     "x": 13,
-    "y": 43
+    "y": 46
   },
   {
     "value": 425,
@@ -3108,7 +3108,7 @@
     "label": "Perly-Certoux",
     "group": "Communes francophones",
     "x": 12,
-    "y": 41
+    "y": 46
   },
   {
     "value": 443,
@@ -3121,7 +3121,7 @@
     "value": 444,
     "label": "Perroy",
     "group": "Communes francophones",
-    "x": 34,
+    "x": 31,
     "y": 75
   },
   {
@@ -3157,7 +3157,7 @@
     "label": "Plan-les-Ouates",
     "group": "Communes francophones",
     "x": 14,
-    "y": 42
+    "y": 46
   },
   {
     "value": 450,
@@ -3171,7 +3171,7 @@
     "label": "Pleigne",
     "group": "Communes francophones",
     "x": 101,
-    "y": 180
+    "y": 175
   },
   {
     "value": 452,
@@ -3262,7 +3262,7 @@
     "label": "Préverenges",
     "group": "Communes francophones",
     "x": 46,
-    "y": 80
+    "y": 84
   },
   {
     "value": 465,
@@ -3583,7 +3583,7 @@
     "value": 510,
     "label": "Saint-Cergue",
     "group": "Communes francophones",
-    "x": 11,
+    "x": 14,
     "y": 75
   },
   {
@@ -3661,7 +3661,7 @@
     "label": "Saint-Prex",
     "group": "Communes francophones",
     "x": 41,
-    "y": 76
+    "y": 80
   },
   {
     "value": 522,
@@ -3723,7 +3723,7 @@
     "value": 530,
     "label": "Seehof",
     "group": "Communes francophones",
-    "x": 123,
+    "x": 115,
     "y": 167
   },
   {
@@ -3808,7 +3808,7 @@
     "label": "Soral",
     "group": "Communes francophones",
     "x": 8,
-    "y": 39
+    "y": 45
   },
   {
     "value": 543,
@@ -3835,8 +3835,8 @@
     "value": 546,
     "label": "Soyhières",
     "group": "Communes francophones",
-    "x": 111,
-    "y": 177
+    "x": 106,
+    "y": 170
   },
   {
     "value": 547,
@@ -3983,7 +3983,7 @@
     "label": "Troinex",
     "group": "Communes francophones",
     "x": 16,
-    "y": 41
+    "y": 45
   },
   {
     "value": 568,
@@ -4094,8 +4094,8 @@
     "value": 583,
     "label": "Val Terbi",
     "group": "Communes francophones",
-    "x": 121,
-    "y": 173
+    "x": 118,
+    "y": 170
   },
   {
     "value": 584,
@@ -4144,7 +4144,7 @@
     "label": "Vendlincourt",
     "group": "Communes francophones",
     "x": 94,
-    "y": 184
+    "y": 180
   },
   {
     "value": 591,
@@ -4200,7 +4200,7 @@
     "label": "Vevey",
     "group": "Communes francophones",
     "x": 71,
-    "y": 73
+    "y": 75
   },
   {
     "value": 599,
@@ -4221,7 +4221,7 @@
     "label": "Veyrier",
     "group": "Communes francophones",
     "x": 17,
-    "y": 42
+    "y": 45
   },
   {
     "value": 602,
