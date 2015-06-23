@@ -20,7 +20,7 @@ angular
         url: @url
         title: =>
           if @cantons.length
-            "Je parle français comme les " + @cantons[0].demonym
+            "Je parle " + @cantons[0].adjective + " à " + Math.round(@cantons[0].value*100) + "%"
           else
             "Où sont les Suisses qui parlent comme vous ?"
         # Facebook's sharing
