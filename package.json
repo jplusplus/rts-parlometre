@@ -14,6 +14,7 @@
     "lodash": "~2.4.1",
     "memory-cache": "^0.1.2",
     "method-override": "~1.0.0",
+    "moment": "^2.10.3",
     "morgan": "~1.0.0",
     "mysql": "^2.5.4",
     "prerender-node": "^1.2.1",
