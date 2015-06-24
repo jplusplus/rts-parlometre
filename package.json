@@ -23,7 +23,8 @@
     "superagent": "^1.2.0"
   },
   "devDependencies": {
-    "chai-as-promised": "^4.1.1",
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
     "chai-things": "^0.2.0",
     "connect-livereload": "~0.5.3 ",
     "grunt": "~0.4.4",
