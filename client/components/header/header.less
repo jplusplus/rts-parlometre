@@ -5,7 +5,7 @@
   border-top: 2px solid @brand-primary;
   border-bottom: 1px solid @gray-lighter;
   height: @header-height;
-  line-height: @header-height;
+  line-height: @header-height;  
 
   &__toggler {
     position: absolute;
@@ -19,6 +19,29 @@
 
     img {
       height: @header-height - 30px;
+    }
+  }
+
+  &__share {
+    font-size:1.8em;
+    width: 90px;
+    text-align: center;
+    margin-left:15px;
+
+    a {
+      cursor: pointer;
+      border-left: 1px solid @gray-lighter;    
+      padding:0 15px;
+    }
+  }
+
+  &__hashtag {
+    line-height: inherit;
+    margin:0;
+    font-size:1.2em;
+
+    @media (max-width: @screen-sm-min) {
+      .hidden();
     }
   }
 
@@ -37,6 +60,18 @@
 
       img {
         height: @header-height-sm - 20px;
+      }
+    }
+
+    &__hashtag {
+      font-size:0.9em;
+    }
+
+    &__share {
+      margin-left:10px;
+
+      a {
+        padding:0 10px;
       }
     }
   }

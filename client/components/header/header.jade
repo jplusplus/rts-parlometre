@@ -4,10 +4,16 @@ header.header
       i.fa.fa-bars.fa-2x
       span.sr-only Ouvrir le menu
     .row.text-center
-      .col-xs-4
+      .col-xs-5
         //- Silence is golden
-      .col-xs-4.header__logo
+      .col-xs-2.header__logo
         a(href="http://www.rts.ch/info/", target="_blank")
           img(src="assets/images/rts-red.svg", height="40px")
-      .col-xs-4
-        //- Silence is golden
+      .col-xs-5
+        .header__share.pull-right
+          a(ng-click="sharer.tw()")
+            i.fa.fa-twitter
+          a(ng-click="sharer.fb()")
+            i.fa.fa-facebook
+        .text-right.text-muted.lead.header__hashtag
+          | <strong>#parlometre</strong> sur Twitter et Facebook

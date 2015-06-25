@@ -1,7 +1,9 @@
 'use strict'
 
 angular.module 'rtsDialectsApp'
-  .controller 'MainCtrl', ($scope, $state, $document, $window, app, Questions)->
+  .controller 'MainCtrl', ($scope, $state, $document, $window, app, Questions, Sharer)->
+    # Create a sharer
+    $scope.sharer = new Sharer()
     # Returns the last index without answer
     $scope.index = do Questions.index
     # List of questions
