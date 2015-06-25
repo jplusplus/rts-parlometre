@@ -5,10 +5,8 @@ angular
         constructor: (@result={})->
           # Get the absolute URL of the current state
           @url = $state.href 'main.outro', { hash: $state.params.hash }, { absolute: yes }
-          # Check that we have cantons
-          @result.cantons = @result.cantons ? []
           # Cantons list
-          @cantons = @result.cantons
+          @cantons = @result.cantons  ? []
         # Return an object
         url: @url
         title: =>

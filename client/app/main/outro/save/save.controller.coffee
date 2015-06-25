@@ -2,7 +2,7 @@
 
 angular
   .module 'rtsDialectsApp'
-    .controller 'MainOutroSaveCtrl', ($scope, $timeout, $modalInstance, Questions, Sharer, result)->
+    .controller 'MainOutroSaveCtrl', ($scope, $timeout, $modalInstance, Questions, Sharer, result)->      
       # Create a sharer object
       $scope.sharer = new Sharer result
       # Transform the note into a human readable information

@@ -17,5 +17,5 @@ angular.module 'rtsDialectsApp'
         resolve:
           # Resolve ineritence from the parent state
           questions: Questions.values
-          result: result
+          result: -> result
       ).result.then goBack, goBack
