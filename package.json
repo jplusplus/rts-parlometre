@@ -18,7 +18,7 @@
     "morgan": "~1.0.0",
     "mysql": "^2.5.4",
     "prerender-node": "^1.2.1",
-    "sequelize": "^2.0.0-rc2",
+    "sequelize": "^3.3.2",
     "serve-favicon": "~2.0.1",
     "sqlite3": "~3.0.2",
     "superagent": "^1.2.0"
