@@ -8,9 +8,9 @@ angular
         location: '//s3-eu-west-1.amazonaws.com/parlometre/'
       generator:
         # Non-cached endpoint
-        # location: '//rts-parlometre-generator.herokuapp.com/custom/distance/'
+        location: '//rts-parlometre-generator.herokuapp.com/custom/distance/'
         # Cached endpoint (using Varnish)
-        location: '//rts-parlometre-generator-herokuapp-com.global.ssl.fastly.net/custom/distance/'
+        # location: '//rts-parlometre-generator-herokuapp-com.global.ssl.fastly.net/custom/distance/'
         proxy: '/api/answers/proxy/'
       cantons:
         BE:
