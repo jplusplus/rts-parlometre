@@ -181,15 +181,6 @@ module.exports = function (grunt) {
       }
     },
 
-    // Debugging with node inspector
-    'node-inspector': {
-      custom: {
-        options: {
-          'web-host': 'localhost'
-        }
-      }
-    },
-
     // Use nodemon to run server in debug mode with an initial breakpoint
     nodemon: {
       debug: {
@@ -414,11 +405,11 @@ module.exports = function (grunt) {
         commit: true,
         push: true,
         connectCommits: false,
-        force: true,
         message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
       },
       heroku: {
         options: {
+          force: true,
           remote: 'git@heroku.com:rts-parlometre.git',
           branch: 'master'
         }
@@ -434,8 +425,7 @@ module.exports = function (grunt) {
       ],
       debug: {
         tasks: [
-          'nodemon',
-          'node-inspector'
+          'nodemon'
         ],
         options: {
           logConcurrentOutput: true
