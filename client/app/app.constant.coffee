@@ -5,7 +5,7 @@ angular
         appid: '662081797256496'
         url: 'http://www.parlometre.ch'
       cdn:
-        location: '//pirhoo.github.io/rts-parlometre-assets/answers/'
+        location: '//pirhoo.github.io/rts-parlometre-assets/'
       generator:
         # Non-cached endpoint
         location: '//rts-parlometre-generator.herokuapp.com/custom/distance/'

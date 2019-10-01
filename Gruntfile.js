@@ -49,11 +49,6 @@ module.exports = function (grunt) {
         }
       }
     },
-    open: {
-      server: {
-        url: 'http://localhost:<%= express.options.port %>'
-      }
-    },
     watch: {
       injectJS: {
         files: [
@@ -68,17 +63,6 @@ module.exports = function (grunt) {
           '<%= yeoman.client %>/{app,components}/**/*.css'
         ],
         tasks: ['injector:css']
-      },
-      mochaTest: {
-        files: ['server/**/*.spec.js'],
-        tasks: ['env:test', 'mochaTest']
-      },
-      jsTest: {
-        files: [
-          '<%= yeoman.client %>/{app,components}/**/*.spec.js',
-          '<%= yeoman.client %>/{app,components}/**/*.mock.js'
-        ],
-        tasks: ['newer:jshint:all', 'karma']
       },
       injectLess: {
         files: [
@@ -102,12 +86,6 @@ module.exports = function (grunt) {
           '!<%= yeoman.client %>/{app,components}/**/*.spec.{coffee,litcoffee,coffee.md}'
         ],
         tasks: ['newer:coffee', 'injector:scripts']
-      },
-      coffeeTest: {
-        files: [
-          '<%= yeoman.client %>/{app,components}/**/*.spec.{coffee,litcoffee,coffee.md}'
-        ],
-        tasks: ['karma']
       },
       gruntfile: {
         files: ['Gruntfile.js']
@@ -152,23 +130,11 @@ module.exports = function (grunt) {
           '!server/**/*.{spec,integration}.js'
         ]
       },
-      serverTest: {
-        options: {
-          jshintrc: 'server/.jshintrc-spec'
-        },
-        src: ['server/**/*.{spec,integration}.js']
-      },
       all: [
         '<%= yeoman.client %>/{app,components}/**/*.js',
         '!<%= yeoman.client %>/{app,components}/**/*.spec.js',
         '!<%= yeoman.client %>/{app,components}/**/*.mock.js'
-      ],
-      test: {
-        src: [
-          '<%= yeoman.client %>/{app,components}/**/*.spec.js',
-          '<%= yeoman.client %>/{app,components}/**/*.mock.js'
-        ]
-      }
+      ]
     },
 
     jscs: {
@@ -239,13 +205,6 @@ module.exports = function (grunt) {
           callback: function (nodemon) {
             nodemon.on('log', function (event) {
               console.log(event.colour);
-            });
-
-            // opens browser on initial server start
-            nodemon.on('config:update', function () {
-              setTimeout(function () {
-                require('open')('http://localhost:8080/debug?port=5858');
-              }, 500);
             });
           }
         }
@@ -488,11 +447,6 @@ module.exports = function (grunt) {
         'jade',
         'less',
       ],
-      test: [
-        'coffee',
-        'jade',
-        'less',
-      ],
       debug: {
         tasks: [
           'nodemon',
@@ -509,72 +463,6 @@ module.exports = function (grunt) {
         'imagemin',
         'svgmin'
       ]
-    },
-
-    // Test settings
-    karma: {
-      unit: {
-        configFile: 'karma.conf.js',
-        singleRun: true
-      }
-    },
-
-    mochaTest: {
-      options: {
-        reporter: 'spec',
-        require: 'mocha.conf.js'
-      },
-      unit: {
-        src: ['server/**/*.spec.js']
-      },
-      integration: {
-        src: ['server/**/*.integration.js']
-      }
-    },
-
-    mocha_istanbul: {
-      unit: {
-        options: {
-          excludes: [
-            '**/*.spec.js',
-            '**/*.mock.js',
-            '**/*.integration.js'
-          ],
-          reporter: 'spec',
-          require: ['mocha.conf.js'],
-          mask: '**/*.spec.js',
-          coverageFolder: 'coverage/server/unit'
-        },
-        src: 'server'
-      },
-      integration: {
-        options: {
-          excludes: [
-            '**/*.spec.js',
-            '**/*.mock.js',
-            '**/*.integration.js'
-          ],
-          reporter: 'spec',
-          require: ['mocha.conf.js'],
-          mask: '**/*.integration.js',
-          coverageFolder: 'coverage/server/integration'
-        },
-        src: 'server'
-      }
-    },
-
-    istanbul_check_coverage: {
-      default: {
-        options: {
-          coverageFolder: 'coverage/**',
-          check: {
-            lines: 80,
-            statements: 80,
-            branches: 80,
-            functions: 80
-          }
-        }
-      }
     },
 
     protractor: {
@@ -739,7 +627,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
-      return grunt.task.run(['build', 'env:all', 'env:prod', 'express:prod', 'wait', 'open', 'express-keepalive']);
+      return grunt.task.run(['build', 'env:all', 'env:prod', 'express:prod', 'wait', 'express-keepalive']);
     }
 
     if (target === 'debug') {
@@ -767,7 +655,6 @@ module.exports = function (grunt) {
       'autoprefixer',
       'express:dev',
       'wait',
-      'open',
       'watch'
     ]);
   });
@@ -775,99 +662,6 @@ module.exports = function (grunt) {
   grunt.registerTask('server', function () {
     grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');
     grunt.task.run(['serve']);
-  });
-
-  grunt.registerTask('test', function(target, option) {
-    if (target === 'server') {
-      return grunt.task.run([
-        'env:all',
-        'env:test',
-        'mochaTest:unit',
-        'mochaTest:integration'
-      ]);
-    }
-
-    else if (target === 'client') {
-      return grunt.task.run([
-        'clean:server',
-        'env:all',
-        'injector:less',
-        'concurrent:test',
-        'modernizr',
-        'injector',
-        'autoprefixer',
-        'karma'
-      ]);
-    }
-
-    else if (target === 'e2e') {
-
-      if (option === 'prod') {
-        return grunt.task.run([
-          'build',
-          'env:all',
-          'env:prod',
-          'express:prod',
-          'protractor'
-        ]);
-      }
-
-      else {
-        return grunt.task.run([
-          'clean:server',
-          'env:all',
-          'env:test',
-          'injector:less',
-          'concurrent:test',
-          'modernizr',
-          'injector',
-          'wiredep',
-          'autoprefixer',
-          'express:dev',
-          'protractor'
-        ]);
-      }
-    }
-
-    else if (target === 'coverage') {
-
-      if (option === 'unit') {
-        return grunt.task.run([
-          'env:all',
-          'env:test',
-          'mocha_istanbul:unit'
-        ]);
-      }
-
-      else if (option === 'integration') {
-        return grunt.task.run([
-          'env:all',
-          'env:test',
-          'mocha_istanbul:integration'
-        ]);
-      }
-
-      else if (option === 'check') {
-        return grunt.task.run([
-          'istanbul_check_coverage'
-        ]);
-      }
-
-      else {
-        return grunt.task.run([
-          'env:all',
-          'env:test',
-          'mocha_istanbul',
-          'istanbul_check_coverage'
-        ]);
-      }
-
-    }
-
-    else grunt.task.run([
-      'test:server',
-      'test:client'
-    ]);
   });
 
   grunt.registerTask('build', [
@@ -892,7 +686,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', [
     'newer:jshint',
-    'test',
     'build'
   ]);
 };
